@@ -3,5 +3,6 @@ languageCode = "en-us"
 title = "Lee Eason's personal blog"
 theme = "aether"
 
-brand = "Eason Development"
-description = "Pragmatic software development tips from the front lines"
+[params]
+  brand = "Eason Development"
+  description = "Pragmatic software development tips from the front lines"
