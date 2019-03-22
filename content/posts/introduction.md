@@ -2,7 +2,7 @@
 title: "Introduction"
 date: 2019-03-21T21:07:24-04:00
 description: "Meet the egotistical schmuck who wrote this crap"
-draft: true
+draft: false
 ---
 
 Hello.  I'm Lee Eason.
