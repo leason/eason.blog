@@ -1,0 +1,4 @@
+baseURL = "https://eason.blog/"
+languageCode = "en-us"
+title = "Lee Eason's personal blog"
+theme = "aether"
