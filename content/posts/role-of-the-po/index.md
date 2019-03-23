@@ -4,7 +4,7 @@ date: 2012-04-06T21:07:40-04:00
 description: "Balance is key to being a successful PO"
 displayInList: true
 categories: ["agile", "leadership"]
-draft: true
+draft: false
 ---
 
 It’s no secret that agile software development is a loaded phrase these days. Every company “does agile” a bit differently. Regardless of how much of the agile process kool-aid your company is drinking, it’s likely that you have put in place a role called Product Owner (PO). It is also likely that every team interacts with their PO differently, and that every level of your organization has very different ideas about what that role is and what they represent.
