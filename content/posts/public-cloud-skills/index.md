@@ -3,6 +3,7 @@ title: "Technical mastery is key to 'Cloud First'"
 date: 2019-03-21T21:07:40-04:00
 description: "Rethink your approach to training"
 displayInList: true
+categories: ["leadership", "cloud", "training"]
 draft: true
 ---
 
@@ -67,6 +68,6 @@ So while nobody wants to see an F grade on their team, especially after being so
 **Identifying and resolving these skill gaps will not only cost less than the $23mm we identified earlier, it will also get you to a good state much faster.**
 
 ## Create a prescriptive training program
-After using Tekata to visualize your skill gaps, you can partner with a vendor to supply targeted training to fill those gaps.  The cost of that vendor will be a small fraction of the technical debt you are avoiding.  One recent project I worked on showed the total cost of our training program was about 1% of the technical debt we were projected to add.
+After using Tekata to visualize your skill gaps, you can partner with a vendor to supply targeted training to fill those gaps.  The cost of that vendor will be a small fraction of the technical debt you are avoiding.  One recent project I worked on showed the total cost of our training program came to 1% of the technical debt we were projected to add without it.
 
 Another bonus is that your team members will be more engaged and happier when they are getting training, but that's content for another post.
