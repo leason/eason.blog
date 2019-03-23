@@ -4,7 +4,7 @@ date: 2016-04-18T21:07:40-04:00
 description: "Including a subjective metric in your DevOps KPIs can reveal surprising depth"
 displayInList: true
 categories: ["devops"]
-draft: true
+draft: false
 ---
 If you accept that you can’t improve what you don’t measure, then you may have a real challenge on your hands when you start trying to improve the health of your teams.  [Anything can be measured](https://codeascraft.com/2011/02/15/measure-anything-measure-everything/) but not everything can be measured easily.  Google, for example, has an entire team that employs scientific measurements to [all kinds of things](https://hbr.org/2013/12/how-google-sold-its-engineers-on-management) to try and figure out which teams are really healthy, and what makes them so.  However, for most organizations, that’s a tough expense to justify.  Most of us have to do it the old fashioned way: by guessing.
 
@@ -46,6 +46,7 @@ Warning: Fuzzy math ahead: Let’s say your teams work about 245 days a year on 
 Bottom line: sharing resources is, at best, a zero-sum game.  You are almost certainly better off keeping services in separate containers or VM’s, even with licensing costs factored in.  Modern techniques allow for increasing density in your datacenter without doubling up services on the same server.  Besides, even .Net developers can get away from OS licenses now!
 
 ### Development Best Practices Matter
+![Trends](score-trends.jpeg "Relationship of deployability to practices")
 Teams that do a better job with unit testing, integration testing, automated full stack testing (selenium, for example), code reviews, pair programming, and test/deploy automation (referred to as Practices in the above graph) have higher Deployability scores.  This is also not surprising, as studies have shown clear relationships between these practices and overall quality.  When a team member is deploying code to production, in the back of their mind they’re thinking about automated tests that fail intermittently, and wondering if this time those failures might have meant something.  They’re thinking about that change they made that nobody had time to really review completely.  If the team had slowed down and dug into those tests they’d be a lot more confident pushing those changes out.  If they’d taken the time to review each other’s code, they’d feel a lot better about pushing it out even if it is pretty risky, since odds are there are a few people that can help address any unexpected issues that come up rather than just the one person who wrote the code.  Having good quality tests with good coverage helps the developers find problems sooner, especially with complicated codebases.  Good coders know if they make a big change to a central object and the unit tests all pass, there’s a good chance something is wrong.
 
 ### Lots more
@@ -53,6 +54,7 @@ I could write about other interesting things we’ve already learned from measur
 
 # Now What?
 Like NPS, you positively affect Deployability by doing several key things better.  Making investments to help your teams get better at unit/integration testing, do Test Driven Development (TDD), automate their build and deploy process, do better code reviews, pair program, or get better tools for easier monitoring are all material ways you can improve your deployability.  Smoothing out the development process and enabling them to ship smaller change sets more frequently is key.  
+![Lead Time](deployability-lead-time.jpeg "Deployability correlates to lead time")
 
 We care about deployability because our business must be fast and agile.  If you want your teams to release features faster, then you want the act of deploying changes to be dead simple.  It should be as natural as committing code.  As deployability scores go up, lead time (the delay between when code is written and when it goes to production) goes down, which leads to better Time to Market.
 
