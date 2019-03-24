@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 date: 2019-03-21T21:07:24-04:00
-description: "Meet the egotistical schmuck who writes this stuff."
+description: "A little bit about the guy who writes this stuff."
 displayInMenu: true
 draft: false
 ---
