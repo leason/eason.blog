@@ -4,7 +4,7 @@ date: 2019-03-21T21:07:40-04:00
 description: "Rethink your approach to training"
 displayInList: true
 categories: ["leadership", "cloud", "training"]
-draft: true
+draft: false
 ---
 
 Many of us have now heard the phrase “cloud first” from an executive in a strategy meeting.  It means that all new technical services should be built on native cloud Platform as a Service (PaaS) rather than for your datacenter.  Unfortunately those strategy sessions don’t talk about the nuts and bolts of how you’ll enable your teams to get there in a healthy way, and that part of the plan becomes an assumption that will prove a very expensive one.
@@ -22,7 +22,7 @@ This means you will be adding $23mm+ in new technical debt over the next few yea
 Another way to think about that $23mm figure is that it's what you are paying to train your teams on how to build healthy AWS applications.  This is learning in the school of hard knocks, by making mistakes and then correcting them.  That begs the question, is there a smarter way to build teams capable of creating healthy cloud based applications?
 
 ## Skills and Capabilities
-Where does that new technical debt come from?  Why do teams have to do so much remediation when they are first going to the cloud?  There are two primary reasons.
+Where does that new technical debt come from?  Why do teams have to do so much remediation when they are first going to the cloud?  There are two primary reasons: operations for cloud services, and a slew of new tools and technologies to master.
 
 ### Operational Model Shift
 The scope of responsibilities we need our teams to take on is drastically larger than in the old operating model.  Historically, IT would provide a slew of services that software development teams rarely understand well enough:
