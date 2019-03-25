@@ -1,7 +1,7 @@
 ---
 title: "Technical mastery is key to 'Cloud First'"
 date: 2019-03-21T21:07:40-04:00
-description: "Rethink your approach to training"
+description: "We have to stop ignoring technical mastery as a part of organizational transformation."
 displayInList: true
 categories: ["leadership", "cloud", "training"]
 draft: false
