@@ -3,6 +3,7 @@ title: "An economic case for central teams"
 date: 2019-03-24T21:07:24-04:00
 description: "Quantifying efficiency savings is possible if you understand the story behind how software teams work."
 displayInMenu: true
+featuredImage: "/posts/small-case-for-central-teams/dollars.jpg"
 draft: true
 ---
 Recently I saw someone on LinkedIn ask "When are central teams okay to have" and one of the responses from a very vocal agile coach was, "never."  This response bothered me, because intuitively I know that there is a time and place for central teams.  There's some very well known organizations that make heavy use of central teams, such as [Netflix](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249).  

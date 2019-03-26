@@ -3,6 +3,8 @@ title: "Technical mastery is key to 'Cloud First'"
 date: 2019-03-21T21:07:40-04:00
 description: "We have to stop ignoring technical mastery as a part of organizational transformation."
 displayInList: true
+featuredImage: "/posts/public-cloud-skills/library.jpg"
+featuredImageDescription: "Copyright https://www.flickr.com/photos/uniinnsbruck/3723226694"
 categories: ["leadership", "cloud", "training"]
 draft: false
 ---
