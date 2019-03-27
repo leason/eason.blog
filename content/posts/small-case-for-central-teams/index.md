@@ -1,6 +1,6 @@
 ---
 title: "An economic case for central teams"
-date: 2019-03-24T21:07:24-04:00
+date: 2019-04-01T05:00:00-04:00
 description: "Quantifying efficiency savings is possible if you understand the story behind how software teams work."
 displayInMenu: true
 featuredImage: "/posts/small-case-for-central-teams/dollars.jpg"
