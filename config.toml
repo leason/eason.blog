@@ -9,6 +9,5 @@ googleAnalytics = "UA-136928251-1"
   brand = "Eason Development"
   description = "Pragmatic software development tips from the front lines"
   twitterHandle = "leejeason"
-  linkedInHandle = "LeeJEason"
-  shareOnTwitter = true
   shareOnLinkedIn = true
+  shareOnTwitter = true
