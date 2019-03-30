@@ -4,6 +4,7 @@ date: 2019-04-01T05:00:00-04:00
 description: "Quantifying efficiency savings is possible if you understand the story behind how software teams work."
 displayInMenu: false
 featuredImage: "/posts/small-case-for-central-teams/dollars.jpg"
+categories: ["leadership","agile"]
 draft: true
 ---
 Recently I saw someone on LinkedIn ask "When are central teams okay to have" and one of the responses from a very vocal agile coach was, "never."  This response bothered me, because intuitively I know that there is a time and place for central teams.  There's some very well known organizations that make heavy use of central teams, such as [Netflix](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249).  
@@ -45,4 +46,4 @@ How you choose to setup your organization sends signals to every team member abo
 # Some caveats
 On a balance sheet, a public company just added three people as overhead and reduced their margins.  The impact to profitability and earnings is a trailing indicator of efficiency gains like this.  So I understand why a company would choose not to build out a small dedicated team even in the face of numbers like this.  What I'd advocate for instead in those cases is building a temporary team, sometimes called a Tiger team, to tackle a specific project.  Pick and choose a few good folks from across a few teams to minimize impact.  They will "inner source" the automation once it is working and let your community of engineers maintain it over time.  This approach has it's own drawbacks, but it's still far better than wasting millions in overhead.
 
-Let's not let idealism get in the way of being sensible and pragmatic.  If this example doesn't feel realistic to you, I'd love to hear from you on Twitter or in the comments.
+Don't let idealism get in the way of being sensible and pragmatic.  If this example doesn't feel realistic to you, I'd love to hear from you on Twitter or in the comments.
