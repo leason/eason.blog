@@ -7,7 +7,7 @@ featuredImage: "/posts/dont-hire-for-skills/eason-hiring-venn-diagram.png"
 categories: ["leadership"]
 draft: true
 ---
-When I hire team members I look for these attributes in this order:
+When I hire team members I look for the following attributes in this order:
 
 1. Attitude
 1. Aptitude
