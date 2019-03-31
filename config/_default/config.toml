@@ -8,7 +8,7 @@ googleAnalytics = "UA-136928251-1"
 [params]
   brand = "Eason Development"
   description = "Pragmatic software development tips from the front lines"
-  homeimg = "/images/footer.png"
+  homeimg = "/images/footer-hex.png"
   twitterHandle = "leejeason"
   shareOnLinkedIn = true
   shareOnTwitter = true
