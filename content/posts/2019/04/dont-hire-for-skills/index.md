@@ -3,7 +3,7 @@ title: "Two things more important than skills when hiring"
 date: 2019-04-08T05:00:00-04:00
 description: "Consider tenure and rate of technology evolution before you prioritize specific technical skills in your hiring process."
 displayInMenu: false
-featuredImage: "/posts/dont-hire-for-skills/eason-hiring-venn-diagram.png"
+featuredImage: "/posts/2019/04/dont-hire-for-skills/eason-hiring-venn-diagram.png"
 categories: ["leadership"]
 draft: true
 ---
