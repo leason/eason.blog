@@ -5,7 +5,7 @@ description: "Quantifying efficiency savings is possible if you understand the s
 displayInMenu: false
 featuredImage: "/posts/2019/04/small-case-for-central-teams/dollars.jpg"
 categories: ["leadership","agile"]
-draft: true
+draft: false
 ---
 Recently I saw someone on LinkedIn ask "When are central teams okay to have" and one of the responses from a very vocal agile coach was, "never."  This response bothered me, because intuitively I know that there is a time and place for central teams.  There's some very well known organizations that make heavy use of central teams, such as [Netflix](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249).  I decided to explore a hypothetical case through math to try and demonstrate when a central team is worth the organizational friction, and show why they don't get created more often.
 
