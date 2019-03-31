@@ -1,0 +1,4 @@
+baseURL = "https://staging.eason.blog"
+buildDrafts = true
+buildFuture = true
+enbableRobotsTXT = false
