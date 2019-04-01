@@ -34,29 +34,31 @@ So when it comes to central teams, don't let idealism get in the way of being se
 ## Reference Table
 Here's some of the facts and figures broken out in table format in case you wanted to follow along with the math
 
-    | Item                | Value         | Notes                                                             |
-    | Annual Team Cost    | $1,000,000    | What my agile leadership friends usually agree                    |
-                                            on as a loose estimate for a cross functional team                |
-    | Weekly Team Cost    | $19,230.77    | Divide row 1 by 52                                                |
-    | Manual Service      | $19,230.77    | One week of work for the team                                     |
-      Startup Cost        
-    | Automated API       | $3,846.15     | One day of work for the team                                      |
-      Startup Cost
-    | Automation Savings  | $15,384.62    | Difference in one day vs one week of work                         |
-    | Number of Teams     | 25            |                                                                   |
-    | Number of Services  | 100           | Each team will create four services                               |
-    | Total Potential     | $1,538,461.54 | Automation savings multiplied by number of services being created |
-      Automation Savings
-    | Total Service       | $1,923,076.92 | What you'll spend to create all 100 services without automation   |
-      Investment
-    | Cost for Product    | $250,000.00   | Three months of work for the cross functional team                |
-      Team to create New
-      API Automation Kit
-    | Total Overhead for  | $76,923.08    | Manual service startup cost X 4 services                          |
-      Teams to create APIs
-      manually
-    | Central Team Annual | $300,000      | Three engineers at 100k each                                      |
-      Headcount Cost
-    | Central Team        | $75,000       | Three months of work for the central team                         |
-      Automation Project
-      Cost
+~~~html
+| Item                | Value         | Notes                                                             |
+| Annual Team Cost    | $1,000,000    | What my agile leadership friends usually agree                    |
+                                        on as a loose estimate for a cross functional team                |
+| Weekly Team Cost    | $19,230.77    | Divide row 1 by 52                                                |
+| Manual Service      | $19,230.77    | One week of work for the team                                     |
+  Startup Cost        
+| Automated API       | $3,846.15     | One day of work for the team                                      |
+  Startup Cost
+| Automation Savings  | $15,384.62    | Difference in one day vs one week of work                         |
+| Number of Teams     | 25            |                                                                   |
+| Number of Services  | 100           | Each team will create four services                               |
+| Total Potential     | $1,538,461.54 | Automation savings multiplied by number of services being created |
+  Automation Savings
+| Total Service       | $1,923,076.92 | What you'll spend to create all 100 services without automation   |
+  Investment
+| Cost for Product    | $250,000.00   | Three months of work for the cross functional team                |
+  Team to create New
+  API Automation Kit
+| Total Overhead for  | $76,923.08    | Manual service startup cost X 4 services                          |
+  Teams to create APIs
+  manually
+| Central Team Annual | $300,000      | Three engineers at 100k each                                      |
+  Headcount Cost
+| Central Team        | $75,000       | Three months of work for the central team                         |
+  Automation Project
+  Cost
+~~~
