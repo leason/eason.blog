@@ -1,6 +1,6 @@
 ---
 title: "The best management book I've ever read"
-date: 2019-04-15T21:07:40-04:00
+date: 2019-04-15T21:05:40-04:00
 description: "Understanding how we are each a hero in our own story builds empathy, and will make you a better manager."
 featuredImage: "/posts/2019/04/best-management-book/book.png"
 categories: ["leadership"]
