@@ -1,11 +1,11 @@
 ---
 title: "All these DevOps cycle graphics are wrong"
-date: 2019-05-06T05:00:00-04:00
+date: 2019-04-29T05:00:00-04:00
 description: "Recognize that a Deploy and a Release are two different things and adjust your tools and process to take advantage of that fact."
 displayInMenu: false
-featuredImage: "/posts/2019/05/all-those-graphics-are-wrong/devops-cycle.png"
+featuredImage: "/posts/2019/04/all-those-graphics-are-wrong/devops-cycle.png"
 categories: ["devops"]
-draft: true
+draft: false
 ---
 If you do a google image search for "[devops cycle](http://lmgtfy.com/?t=i&q=devops+cycle)" you will find a lot of variants of the above graphic.  The problem is that every one of them that breaks out _release_ from _deploy_ are putting them in the wrong order.
 
@@ -27,4 +27,6 @@ Finally, in order to push frequent, small changes to production without impactin
 At a minimum, a simple binary on/off switch that can be controlled without having to deploy code changes is enough.  Over time you may find that UX and Product likes being able to turn new features on for subsets of users either to appease a key customer or perform A/B testing.
 
 ## Now What?
-Go look at your team's process and see if you are capable of separating these two events.  The value in being able to do that is increasing your deploy frequency, improving MTTR, and probably improving the quality of life for your development and engineering teams.  This all comes with the added bonus of giving Product and UX new tools to use in your pursuit of delighting customers.
+You should be able to separate a Release from a Deploy.  DevOps graphics should encourage that separation, but the Deploy event will always precede the Release.  Go look at your team's process and see if you are capable of separating these two events.  The value in being able to do that is increasing your deploy frequency, improving MTTR, and probably improving the quality of life for your development and engineering teams.  This all comes with the added bonus of giving Product and UX new tools to use in your pursuit of delighting customers.
+
+If someone with more Photoshop skills than I have wants to make a good, correct version of that graphic I will happily share and give credit.
