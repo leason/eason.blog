@@ -1,6 +1,6 @@
 ---
 title: "Getting lost in a sea of tools"
-date: 2019-04-22T05:00:00-04:00
+date: 2019-05-22T05:00:00-04:00
 description: "Buy vs Build vs Don't do either?"
 displayInMenu: false
 featuredImage: "/posts/2019/05/so-many-tools/devops-tools.png"
