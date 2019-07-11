@@ -41,4 +41,8 @@ Third party integrations in Teams feel like an afterthought whereas in Slack the
 Slack customers must be careful to read and understand the terms of use for those third party integrations that are so easy to enable.  Third parties often ask for a lot of data access, many times full access to public and private messages, as well as employee data such as email addresses.  That constitutes PII and you have an obligation to protect that information.  Don't enable blanket integration permissions - make your users request access to new integrations and review them before enabling them.
 
 # Why Slack's future is bright #
-There's plenty of business to go around. Slack is smart to partner with companies like Atlassian, who also compete directly with MSFT.  They are showing that not only do they recognize that "the enemy of my enemy is my friend" but they're able to execute on a business strategy that makes the most of that.  Any customer of GitLab, Jira, Rally, Basecamp, Google Suite, or any of the hundreds of other Azure DevOps and Office 365 alternatives are prime customers for Slack.
+There's plenty of business to go around. Slack is [smart to partner with companies like Atlassian](https://www.atlassian.com/blog/announcements/new-atlassian-slack-partnership), who also compete directly with MSFT.  They are showing that not only do they recognize that "the enemy of my enemy is my friend" but they're able to execute on a business strategy that makes the most of that.  Any customer of GitLab, Jira, Rally, Basecamp, Google Suite, or any of the hundreds of other Azure DevOps and Office 365 alternatives are prime customers for Slack.
+
+So while entrenched enterprises who buy up smaller companies may drive some business from Slack to MSFT, they don't go happily and I don't see MSFT winning business away on merit alone.
+
+_Important reminder: the thoughts and opinions here are mine and mine alone and do not represent my employer in any way_
