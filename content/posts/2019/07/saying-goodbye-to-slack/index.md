@@ -17,7 +17,14 @@ My goal with this post is to share some observations around the two tools and te
 {{<smallimg src="/posts/2019/07/saying-goodbye-to-slack/heart-slack.png" alt="Slack heart logo" smartfloat="left" width="125px">}}
 I don't say that figuratively.  A large majority of our users were emotionally distressed about losing access to Slack.  They felt strongly that Slack had brought them together as remote teams in a way other tools, including Teams, have not.
 
-That's not an accident.  Slack is a design driven product.  Most users of both Teams and Slack will tell you they vastly prefer the chatting experience on Slack, even though they sometimes can't tell you why.  There are tiny delays and lags when clicking on elements in Teams you won't find in Slack.  Sharing large snippets of text, like source code, works really well in Slack and is not good on Teams.  Images expand in visually pleasant ways in Slack that have ugly borders and ratios in Teams.  Whitespace and padding are balanced and meaningful in Slack, but feel chaotic in Teams.
+That's not an accident.  Slack is a design driven product.  Most users of both Teams and Slack will tell you they vastly prefer the chatting experience on Slack, even though they sometimes can't tell you why.  Here's some key UX differences:
+
+1. Channel membership in Slack is simple and leans towards being open.  Teams can't do granular channels yet; a Team can contain many channels, but being part of that Team gives you access to all its channels.  In practice that forces you to create more Teams than you really need, and disperses information more than you want because...
+1. Slack search is simple, fast, and very good, but difficult, slow, and clunky in Teams.  This is likely because Teams is actually a melding of several products like Sharepoint, Onedrive, and Skype.
+1. There are tiny delays and lags when clicking on elements in Teams you won't find in Slack.  
+1. Sharing large snippets of text, like source code, works really well in Slack and is not good on Teams.  
+1. Images expand in visually pleasant ways in Slack that have ugly borders and ratios in Teams.  
+1. Whitespace and padding are balanced and meaningful in Slack, but feel chaotic in Teams.
 
 ### The effect of good design
 This all drives people to _want_ to use Slack, which creates that sense of bonding our folks talked about.  Casual chatting on Teams is dramatically less.  Our "play" channels are nowhere near as active in Teams.  Look at the activity growth over time in that chart - we weren't growing by that many employees over that time period.  That was just people using Slack more and more, and email less and less.
