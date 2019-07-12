@@ -5,7 +5,7 @@ description: "My takeaways after migrating from Slack to Microsoft Teams after f
 displayInMenu: false
 featuredImage: "/posts/2019/07/saying-goodbye-to-slack/Slack_RGB.png"
 categories: ["devops"]
-draft: true
+draft: false
 ---
 After four years of Slacking, we have just migrated 2k people to Microsoft Teams.  At our peak with Slack, [as seen below](#usage), we were sending over 60k messages a day, thousands of files, and we had hundreds of integrations.
 
