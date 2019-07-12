@@ -39,7 +39,7 @@ I can't tell you how awkward it's been to get used to saying "I'll Teams it to y
 # Integrations really matter
 Business users don't just chat with each other.  That communication medium has become a hub of information exchange from many different sources.  
 
-MSFT's first party integrations in Teams work well.  For me the most valuable thing about Teams is the ability to click on a person's name, and then click their "organization" tab.  Because Teams is integrated with Active Directory, I see an org chart showing that person's directs and who they report up through, including everyone's titles.  When you have 16k people in your organization and you're trying to learn it, that a huge time saver.
+MSFT's first party integrations in Teams work well.  For me the most valuable thing about Teams is the ability to click on a person's name, and then click their "organization" tab.  Because Teams is integrated with Active Directory, I see an org chart showing that person's directs and who they report up through, including everyone's titles.  When you have 16k people in your organization and you're trying to learn it, that is a huge time saver.
 
 The video conferencing is also very good in Teams.  Slack was late to the game with that feature, and security concerns with it kept us from really trying it out, so I can't really compare the two.
 
@@ -50,9 +50,9 @@ Third party integrations in Teams feel like an afterthought whereas in Slack the
 Slack customers must be careful to read and understand the terms of use for those third party integrations that are so easy to enable.  Third parties often ask for a lot of data access, many times full access to public and private messages, as well as employee data such as email addresses.  That constitutes PII and you have an obligation to protect that information.  Don't enable blanket integration permissions - make your users request access to new integrations and review them before enabling them.
 
 # Why Slack's future is bright #
-Slack is a tough sell right now to a large enterprise already paying licenses for Azure AD and Office 365.  For them, Teams is a bundled cost and to be honest with that stack already in place it works pretty well.  So while entrenched enterprises who buy up smaller companies may drive some business from Slack to MSFT, they don't go happily and I don't see MSFT winning business away on anything other than pure commercial merit.
+Slack is a tough sell right now to a large enterprise already paying for Azure AD and Office 365.  For them, Teams is likely a bundled cost and with that stack already in place it works well enough.  So while entrenched enterprises who buy up smaller companies may drive some business from Slack to MSFT, they don't go happily and I don't see MSFT winning business away on anything other than pure commercial merit.
 
-Let's not forget there's plenty of business to go around. Slack is [smart to partner with companies like Atlassian](https://www.atlassian.com/blog/announcements/new-atlassian-slack-partnership), who also compete directly with MSFT.  They are showing that they can take advantage of the ancient proverbe: "the enemy of my enemy is my friend."  Any customer of GitLab, Jira, Rally, Basecamp, Google Suite, or any of the hundreds of other Azure DevOps and Office 365 alternatives are prime customers for Slack.
+Let's not forget there's also plenty of business to go around. Slack is [smart to partner with companies like Atlassian](https://www.atlassian.com/blog/announcements/new-atlassian-slack-partnership), who also compete directly with MSFT.  They are showing that they can take advantage of the ancient proverb: "the enemy of my enemy is my friend."  Any customer of GitLab, Jira, Rally, Basecamp, or Google Suite are prime customers for Slack.
 
 With their continued focus on the end user experience and a great open marketplace experience, my money is still on Slack continuing to grow in value.
 
