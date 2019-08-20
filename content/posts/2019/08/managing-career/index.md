@@ -1,6 +1,6 @@
 ---
 title: "Advice on Managing Your Career"
-date: 2019-08-26T05:00:00-04:00
+date: 2019-08-20T05:00:00-04:00
 description: "Thoughts on career progression after 20 years in software development."
 displayInMenu: false
 featuredImage: "/posts/2019/08/managing-career/the_thinker.jpg"
