@@ -31,6 +31,9 @@ I became very thoughtful and intentional about self awareness, self improvement,
 
 **Advice to early careers folks:** look at your colleagues and the roles they fill.  What inspires you?  Make sure you look outside your business unit at other teams and functions.  Be curious - buy people coffee and ask them to tell you about what they do and how it's valuable.  Set your sights on a goal and work purposefully towards it.
 
+## Mentors and Mentoring
+There's no way I would be in a position to take on this next challenge were it not for my mentors.  A mentor inspires you to form a picture of what "great" looks like and helps you think through ways to achieve it.  They call out gaps in your skillset and point you to ways to fill them.  I've been very privileged to have people like Doug Kubel, Doug Kaufman, and Jonathan Meyer provide that type of mentoring.  Most of all, the man who has been there mentoring me my entire career: my Dad.  He's been a true inspiration and invaluable source of wisdom.  Thanks, Dad.
+
 ## Never let a little thing like qualifications get in your way
 {{<smallimg src="/posts/2019/08/managing-career/resume.png" alt="resume" smartfloat="right" width="125px">}}
 HP published a [great study](https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified) on why people don't apply for jobs.  It shows that most of the time it's because people don't think they're qualified, and either don't want to waste their time or experience rejection.  However, think about the times in your career when you've been the most motivated and when you've done your most valuable work.  For me, it's been the times when I was most out of my element.
