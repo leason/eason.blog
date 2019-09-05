@@ -29,12 +29,12 @@ I became very thoughtful and intentional about self awareness, self improvement,
 1. Will I learn things that will make me a better CTO?
 1. How will this role improve my story when talking to the next employer after this one?
 
-**Advice to early careers folks:** look at your colleagues and the roles they fill.  What inspires you?  Make sure you look outside your business unit at other teams and functions.  Be curious - buy people coffee and ask them about what they do and how it's valuable.  Figure out what drives you and work purposefully towards it.  There is no role out of reach, but you will have to be patient.
+**My two cents:** Look at your colleagues and the roles they fill.  What inspires you?  Make sure you look outside your business unit at other teams and functions.  Be curious - buy people coffee and ask them about what they do and how it's valuable.  Figure out what drives you and work purposefully towards it.  There is no role out of reach, but you will have to be patient.
 
 ## Mentors and Mentoring
 There's no way I would be in a position to take on this next challenge were it not for my mentors.  A mentor inspires you to form a picture of what "great" looks like and helps you think through ways to achieve it.  They call out gaps in your skillset and point you to ways to fill them.  I've been very privileged to have people like Doug Kubel, Doug Kaufman, O'Hara Macken, and Jonathan Meyer provide that type of mentoring.  Most of all, the man who has been there mentoring me my entire career: my Dad.  He's been a true inspiration and invaluable source of wisdom.  Thanks, Dad.
 
-Find mentors.  It doesn't have to be a formal thing.  I didn't ask those folks above if they would be my mentor.  Instead, I bought them scotch and respected their time.  I also made sure they knew their investment in me was making a difference and that they weren't wasting their experiences.  Mentorship is a two way street - if you don't respond and demonstrate growth they may disengage and that's to be expected.  If a mentor suggests a book, for example, make sure you read it and talk to them about what you got out of it.
+**My two cents:** Find mentors.  It doesn't have to be a formal thing.  I didn't ask those folks above if they would be my mentor.  Instead, I bought them scotch and respected their time.  I also made sure they knew their investment in me was making a difference and that they weren't wasting their experiences.  Mentorship is a two way street - if you don't respond and demonstrate growth they may disengage and that's to be expected.  If a mentor suggests a book, for example, make sure you read it and talk to them about what you got out of it.
 
 ## Never let a little thing like qualifications get in your way
 {{<smallimg src="/posts/2019/08/managing-career/resume.png" alt="resume" smartfloat="right" width="125px">}}
@@ -46,4 +46,4 @@ I've never been a CTO before.  Why would these people hire me?  It's because my 
 
 The delta between your last role and the one you are shooting for has to be covered by your ability to tell that story.  If you're a job seeker shooting for a big jump in responsibility, you're going to have to be able to tell that story really well.  The greater the responsibility, the tougher the audience is going to be because the stakes are higher.
 
-**Advice to job seekers:** Practice telling your story.  Hone it, simplify it.  I can break my twenty year career down into two acts: technical contributor becomes leader, and large scale change agent becomes executive.  Practice telling people about your career goals and how this job you want aligns with that story.  Good employers will care a lot more about that than your resume.
+**My two cents:** Practice telling your story.  Hone it, simplify it.  I can break my twenty year career down into two acts: technical contributor becomes leader, and large scale change agent becomes executive.  Practice telling people about your career goals and how this job you want aligns with that story.  Good employers will care a lot more about that than your resume.
