@@ -1,6 +1,6 @@
 ---
 title: "My First Job"
-date: 2020-02-06T05:00:00-04:00
+date: 2020-02-03T05:00:00-04:00
 description: "Reflecting on my first job and the impact it had on my life"
 displayInMenu: false
 featuredImage: "/posts/2020/02/my-first-job/library.jpg"
