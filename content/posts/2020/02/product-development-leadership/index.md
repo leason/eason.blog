@@ -5,7 +5,7 @@ description: "What are the core abilities I think a technical product leader nee
 displayInMenu: false
 featuredImage: "/posts/2020/02/product-development-leadership/three_columns.jpg"
 categories: ["leadership"]
-draft: true
+draft: false
 ---
 When I distill the key abilities of my greatest mentors, and think about my own progression from a self-taught coder to a CTO, I come up with three main very connected things:
 
