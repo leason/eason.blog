@@ -21,15 +21,15 @@ Bob is excited - he's always wanted to learn about "The Cloud" and now he finall
 
 Bob's team has been working on a new release of one of the more important products at Inerji for the last three months.  They are nearing the deadline and everyone on the team has been working very hard to get it all done.  In a given day, Bob is reviewing half a dozen fairly large code changes, fixing bugs, and writing code in support of the tasks he's responsible for.  He and his team are going through Agile training and learning how to use new tools like Jira to track their work.  His team also needs him to to organize lunch and learns for the two new hires in his group to help them get productive as quickly as possible.
 
-In the evenings he goes home and helps with dinner, helps the kids with homework, then helps get everyone to bed.  By this point it's usually 9pm, and Bob has to be up the next day at 6am to start all over again.  He really wants to take that cloud course on Linux Academy, but his brain is pretty done at this point because he's been going 15 hours straight by now.  He really wants to sit on the couch and relax for an hour before going to sleep.  After all, hasn't he earned that?
+In the evenings he goes home and helps with dinner, helps the kids with homework, then helps get everyone to bed.  By this point it's usually 9pm, and Bob has to be up the next day at 6am to start all over again.  He wants to take that cloud course on Linux Academy, but his brain is pretty done at this point because he's been going 15 hours straight by now.  So instead he sits on the couch and relaxes for an hour before going to sleep.  After all, hasn't he earned that?
 
 On the weekends the kids have soccer, there is housework and yard work, he has to run some things to the landfill, and help one of his kids with a school project that involves using power tools for some reason.  After church on Sunday and a lunch with friends, he is able to spend two hours of his afternoon on his cloud course before his kids bug him enough to play with them some before he starts on dinner.  
 
 Rinse.  Repeat.
 
-At this rate it will take Bob 19 weeks to finish his cloud course.  And that's just one beginner level course.  There are at least five more that would significantly help Bob and his team.
+At this rate it will take Bob 19 weeks to finish his cloud course.  And that's just one beginner level course.  There are at least five more that would significantly help Bob and his team better understand things like security and cloud development best practices.
 
-And this is assuming Bob picked the right course to start with.  Remember, there are dozens of available courses and nobody helped Bob figure out where to start.  Also, right now Bob and his team are doing nothing with the cloud.  So those few things he's learning in that two hour per week session are immediately forgotten because he's not using them.
+Also, right now Bob and his team are doing nothing with the cloud.  So those few things he's learning in that two hour per week session are immediately forgotten because he's not using them.
 
 Friends, this is the crisis your company is facing.  I have seen countless examples of both Inerji and Bob during my career.  
 
