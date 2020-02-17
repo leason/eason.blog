@@ -5,7 +5,7 @@ description: "A fictional story to illustrate why is it so hard to become a clou
 displayInMenu: false
 featuredImage: "/posts/2020/02/cloud-transformation-is-people-transformation/reaching-out.jpg"
 categories: ["cloud", "leadership"]
-draft: true
+draft: false
 ---
 Meet Bob.
 
@@ -17,7 +17,7 @@ This democratization of information and tools is slowly disrupting a lot of hist
 
 So the executive team tries to create that pressure.  They have company wide meetings and publish urgent sounding memos.  Agile transformation consultants are brought in to shake up how work gets done.  And the CTO/CIO declares that Inerji is now a cloud-first company; meaning that any new solutions have to be built for native public cloud operations.
 
-Bob is excited - he's always wanted to learn about "The Cloud" and now he finally will get the chance.  He's not sure how to get started, so he emails the head of Learning and Development.  Inerji is a rare company to have this department at all.  Bob is lucky and gets a Linux Academy subscription.  The company only has 100 seats and there are over 500 people just in application development.
+Bob is excited - he's always wanted to learn about "The Cloud" and now he will finally get the chance.  He's not sure how to get started, so he emails the head of Learning and Development.  Inerji is a rare company to have this department at all.  Bob is lucky and gets a Linux Academy subscription.  The company only has 100 seats and there are over 500 people just in application development.
 
 Bob's team has been working on a new release of one of the more important products at Inerji for the last three months.  They are nearing the deadline and everyone on the team has been working very hard to get it all done.  In a given day, Bob is reviewing half a dozen fairly large code changes, fixing bugs, and writing code in support of the tasks he's responsible for.  He and his team are going through Agile training and learning how to use new tools like Jira to track their work.  His team also needs him to to organize lunch and learns for the two new hires in his group to help them get productive as quickly as possible.
 
@@ -27,7 +27,7 @@ On the weekends the kids have soccer, there is housework and yard work, he has t
 
 Rinse.  Repeat.
 
-At this rate it will take Bob 19 weeks to finish his cloud course.  And that's just one beginner level course.  There are at least five more that would significantly help Bob and his team better understand things like security and cloud development best practices.
+At this rate it will take Bob **19 weeks** to finish his cloud course.  And that's just one beginner level course.  There are at least five more that would significantly help Bob and his team better understand things like security and cloud development best practices.
 
 Also, right now Bob and his team are doing nothing with the cloud.  So those few things he's learning in that two hour per week session are immediately forgotten because he's not using them.
 
