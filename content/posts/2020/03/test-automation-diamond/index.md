@@ -15,7 +15,7 @@ However, over the past 15 years Service Oriented Architectures exploded in popul
 
 But writing these tests is not cheap - they add source code that must be maintained.  They have to be carefully thought out lest they add more friction than they are worth.  To that end, skilled developers focus their test writing on the parts of the code that carry the most risk.  **In today's world of microservices, integration tests are more valuable than unit tests.**
 
-Integration tests exercise the connection between services.  They should be code level tests, able to run in isolation (meaning they use mocks to represent the external service).  They still take longer to run than a unit test.  You should use [Pact.io](https://pact.io) or something like it to make these tests document and rely on contracts and catch changes in dependencies quickly and automatically.
+Integration tests exercise the connection between services.  They should be code level tests, able to run in isolation; meaning they use mocks to represent the external service and don't need infrastructure.  They take a bit longer to run than a unit test.  You should use [Pact.io](https://pact.io) or something like it to make these tests document and rely on contracts and catch changes in dependencies quickly and automatically.
 
 [Netflix has over 700 microservices.](https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b)  [Uber has over 3,000.](https://www.infoq.com/presentations/uber-microservices-distributed-tracing/)  In my experience integration tests in environments like this are essential.  There is much more risk in the relationships between services than within the services themselves.
 
