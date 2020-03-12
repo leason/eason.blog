@@ -5,7 +5,7 @@ description: "Revising test automation proportions in the post-API driven world.
 displayInMenu: false
 featuredImage: "/posts/2020/03/test-automation-diamond/test-automation-diamond.png"
 categories: ["devops"]
-draft: true
+draft: false
 ---
 You've probably seen some version of the test automation _pyramid_ many times by now.  The story is that [Mike Cohn created it as far back as 2003](https://martinfowler.com/bliki/TestPyramid.html) as part of an agile conference.  At that time most companies were still creating monolithic architectures - meaning that all the source code for a product was wrapped up in one large repository.  In that context, the pyramid made a lot of sense.
 
@@ -23,4 +23,4 @@ Integration tests exercise the connection between services.  They should be code
 
 An added benefit is that Pact.io style integration tests will ease semantic versioning of services.  This removes the need for cascading deployments, which are risky and require centrally managed change control and slow down overall development.
 
-I really want to hear from you on whether you agree or not, and whether your experience lines up with mine.  Please drop me a line in the comments or on Twitter.
+I really want to hear from you on whether you agree or not, and whether your experience lines up with mine.  Have you see contract testing done better than by using the integration tests?  Please drop me a line in the comments or on Twitter.
