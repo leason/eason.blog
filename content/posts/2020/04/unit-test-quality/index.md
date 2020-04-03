@@ -7,7 +7,7 @@ featuredImage: "/posts/2020/04/unit-test-quality/watchmen.jpg"
 categories: ["devops"]
 draft: false
 ---
-In _Watchmen_, Alan Moore's incredible graphic novel, a wave of resentment against the city's superheroes drives people to start writing this question on many of the buildings: Who Watches the Watchmen?
+In _Watchmen_, Alan Moore's incredible graphic novel, a wave of resentment against the city's superheroes drives people to start writing this question on many of the buildings: Who Watches the Watchmen?**
 
 Here's the theory behind automated tests: they improve overall quality because they serve as living documentation of the intended behavior of the source code, and they catch unintended changes to that behavior before impacting other developers, teams, or customers.
 
@@ -18,9 +18,9 @@ The most popular metric for unit test quality has been Code Coverage.  This look
 
 The problem is that while low coverage indicates untested code, high coverage does not indicate quality tests.  [Fowler does a good job of explaining that in more detail](https://martinfowler.com/bliki/TestCoverage.html).
 
-At one company I studied, *60% of the test cases I looked at had zero assertions, but the code coverage averaged 70%*.  Those test cases add almost *no value* at all; they are just bloat in the codebase that future developers have to deal with.  What's a better way to measure test quality?
+At one company I studied, **60% of the test cases I looked at had zero assertions, but the code coverage averaged 70%**.  Those test cases add almost **no value** at all; they are just bloat in the codebase that future developers have to deal with.  What's a better way to measure test quality?
 
-There's two ways to look at unit test quality I've come to trust: *mutation test coverage* and the *Assert to Invoke* ratio.
+There's two ways to look at unit test quality I've come to trust: **mutation test coverage** and the **Assert to Invoke** ratio.
 
 ## Mutation Testing
 [Mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) is an automated system that alters the source code and re-runs the unit tests.  There are a myriad of frameworks and libraries for doing this in just about every major language.  [Here's a good blog post on doing it in .Net](https://opensource.com/article/19/9/mutation-testing-example-definition). I've used [PiTest](https://pitest.org/) for Java, and [MutMut](https://pypi.org/project/mutmut/) and [PyMut](https://pypi.org/project/pymut/) for Python.  There is a difference in outcomes and reporting capability from one library to another, so I'd encourage you to try a few out and see which one works best for your needs.
@@ -38,3 +38,5 @@ By way of example: in the source code for [Tekata.io](https://tekata.io)'s skill
 
 ## Next Steps
 The biggest challenge is actually getting the Assert to Invoke stat.  Most unit testing frameworks are not exposing these numbers yet.  In order to do this analysis I had to write some creative regex searches (I know, I know).  Some languages work better for that than others.  I'd love to see jUnit and PyTest actually gather these stats so we can be more accurate.  I'm also interested in writing a SonarQube plugin that could track and put quality gates in place for Assert to Invoke.  If someone wants to team up to do that, let me know.
+
+** *Trivia fun: This phrase comes from [Juvenal's Satires](https://en.wikipedia.org/wiki/Quis_custodiet_ipsos_custodes%3F) written in the 2nd century.  He posed the question, "Quis custodiet ipsos custodes" or "Who will guard the guards themselves?"*
