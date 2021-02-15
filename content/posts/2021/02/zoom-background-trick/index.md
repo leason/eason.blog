@@ -1,6 +1,6 @@
 ---
 title: "Forging real relationships in a remote world"
-date: 2021-02-13T05:00:00-04:00
+date: 2021-02-15T05:00:00-04:00
 description: "New technique for building relationships with age old realities"
 displayInMenu: false
 featuredImage: "/posts/2021/02/zoom-background-trick/french_sign.jpg"
