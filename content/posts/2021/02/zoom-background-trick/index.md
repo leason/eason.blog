@@ -9,7 +9,7 @@ draft: false
 ---
 Like most of you reading this, I spent 2020 working out of a home office (and continue to do so as of this writing).  This is the first time in my career I've worked remotely this much.  Before I was always able to augment any virtual introductions with a face to face soon after.  For the first six months of my job at Ipreo leading a DevOps transformation I was in NY City twice a month.  My kind of work heavily relies on building relationships.
 
-One trick I figured out early last year was to set custom backgrounds and rotating them once a week or so.  I started using pictures from my personal travels.  I didn't have an agenda with this at first, they were just photos I liked.
+One trick I figured out early last year was to set custom backgrounds and rotate them once a week or so.  I started using pictures from my personal travels.  I didn't have an agenda with this at first, they were just photos I liked.
 
 Something great started happening.  During those first few minutes when everyone is signing in, un-muting, shooing their kids out of their office (or not), people started asking me about the pictures.  It gave me a chance to tell a really quick personal story about where I was when I took it.  Most of the time, especially at the beginning, I didn't know everyone on the call, so it turned into a way to do a really fast but intimate introduction.  
 
