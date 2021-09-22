@@ -4,7 +4,7 @@ date: 2021-02-15T05:00:00-04:00
 description: "Sharing a modern technique for age old relationship building"
 displayInMenu: false
 featuredImage: "/posts/2021/02/zoom-background-trick/french_sign.jpg"
-categories: ["leadership"]
+categories: ["leadership","pandemic lessons"]
 draft: false
 ---
 Like most of you reading this, I spent 2020 working out of a home office (and continue to do so as of this writing).  This is the first time in my career I've worked remotely this much.  Before I was always able to augment any virtual introductions with a face to face soon after.  For the first six months of my job at Ipreo leading a DevOps transformation I was in NY City twice a month.  My kind of work heavily relies on building relationships.

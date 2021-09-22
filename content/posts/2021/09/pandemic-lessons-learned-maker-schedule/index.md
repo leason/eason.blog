@@ -4,7 +4,7 @@ date: 2021-09-16T05:00:00-04:00
 description: "Protecting Maker Schedules in a Post-Pandemic World"
 displayInMenu: false
 featuredImage: "/posts/2021/09/pandemic-lessons-learned-maker-schedule/Calendar.png"
-categories: ["leadership"]
+categories: ["leadership","pandemic lessons"]
 draft: false
 ---
 Back in 2009 [Paul Graham wrote a great article](http://www.paulgraham.com/makersschedule.html) that described the vastly different calendars of managers and makers.  TL;DR: Makers need large blocks of time to be productive, and context switching kills their focus.  Software engineers are a good example of a Maker.  While it seems the majority of folks are happy to be working remotely most of the time, I believe this environment exacerbates the problem Paul was highlighting.
