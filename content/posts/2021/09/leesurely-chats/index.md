@@ -35,15 +35,16 @@ the challenges they are facing and that I'm working on their behalf.
 
 I take notes during the discussions.  This helps me identify trends and patterns from one Leesurely
 chat to the next.  Striking the right balance in how I respond to things is the hardest part of
-these.  I'm very careful not to be defensive of what they bring up, but when there is
-work happening to address a pain point I want them to be aware of it.
+these.  I try to be careful not to be defensive of what they bring up, but when there is
+work happening to address a pain point I want them to be aware of it.  In my 1:1s with their
+managers I test this to make sure I'm getting it right based on how they describe the meeting.
 
 My main goal with these is making sure the system of systems we've built is working.  I
 assume there will always be problems and opportunities.  The question is, are those making it to
 the right leaders and are they getting the attention they deserve?  These chats are helping me
 test the way various shared services teams are operating against the reality our teams live in.
 
-I think this is one of those areas where remote working helps.  I can have a deep conversation with
+I think this is one of those areas where remote working helps.  I can have a conversation with
 a representative sample of folks in a portfolio with hundreds of team members much faster than I
 could have when we were all in distributed offices. These chats are helping me feel more
 assured about whether I have a realistic picture of what things are like for our teams.
