@@ -1,11 +1,11 @@
 ---
 title: "Measuring Vision"
-date: 2021-09-29T05:00:00-04:00
+date: 2021-09-30T05:00:00-04:00
 description: "Fully distributed teams make metrics a must"
 displayInMenu: false
 featuredImage: "/posts/2021/09/metrics-matter/Caliper.png"
 categories: ["leadership","pandemic lessons"]
-draft: true
+draft: false
 ---
 **How do I really know if our teams are improving?**
 
