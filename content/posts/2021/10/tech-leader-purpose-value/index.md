@@ -1,11 +1,11 @@
 ---
 title: "Being a Technology Leader"
-date: 2021-10-15T05:00:00-04:00
+date: 2021-10-22T05:00:00-04:00
 description: "What does it mean to lead people on an engineering team?"
 displayInMenu: false
 featuredImage: "/posts/2021/10/tech-leader-purpose-value/Delivery Drivers.png"
 categories: ["leadership"]
-draft: true
+draft: false
 ---
 At Edward Jones we say that someone is "responsible" to another person instead of saying that they "report" to them.  It's a subtle change, but I like it.  Being a leader carries a heavy responsibility. This post is not about Edward Jones specifically, just my thoughts on what it means to lead people on engineering teams.
 
