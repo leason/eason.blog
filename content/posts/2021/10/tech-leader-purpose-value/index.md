@@ -9,7 +9,7 @@ draft: false
 ---
 At Edward Jones we say that someone is "responsible" to another person instead of saying that they "report" to them.  It's a subtle change, but I like it.  Being a leader carries a heavy responsibility. This post is not about Edward Jones specifically, just my thoughts on what it means to lead people on engineering teams.
 
-After years of mentoring sessions with folks aspiring to leadership roles, and with other organizational leaders, I wanted to put in words my take on the role of leading people on engineering teams. It's often misunderstood and misused, creating a huge missed opportunity for the organization.
+After years of mentoring sessions with folks aspiring to leadership roles, and with other organizational leaders, I wanted to put in words my take on the role. It's often misunderstood and misused, creating a missed opportunity for the organization and slowing down transformation.
 
 ## What makes Managers unique
 If Product Owners (POs) are responsible for the **What** and the **Why** of where a team focuses, the Manager is responsible for the **How** (which altogether determines the **when**).  Most companies have one PO per engineering team, while Managers might be responsible for several teams at once.
