@@ -12,7 +12,7 @@ At Edward Jones we say that someone is "responsible" to another person instead o
 After years of mentoring sessions with folks aspiring to leadership roles, and with other organizational leaders, I wanted to put in words my take on the role. It's often misunderstood and misused, creating a missed opportunity for the organization and slowing down transformation.
 
 ## What makes Managers unique
-If Product Owners (POs) are responsible for the **What** and the **Why** of where a team focuses, the Manager is responsible for the **How** (which altogether determines the **when**).  Most companies have one PO per engineering team, while Managers might be responsible for several teams at once.
+If Product Owners (POs) are responsible for the **what** and the **why** of where a team focuses, the Manager is responsible for the **how** (which altogether determines the **when**).  Most companies have one PO per engineering team, while Managers might be responsible for several teams at once.
 
 Look back at the image above. The orange items are not meant to be exhaustive, just representative of all the things that influence and drive delivery. In my opinion, the primary value of a manager is rooted in their knowledge of how that clock works. While the PO is focused on *what* is most valuable to the customers, the Manager understands *how* to diagnose when the clock hands aren't working as well as they could. **Managers are accountable for making the clock work better.**
 
