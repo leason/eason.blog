@@ -5,7 +5,7 @@ description: ""
 displayInMenu: false
 featuredImage: "/posts/2022/08/user-satisfaction/focusgroup.png"
 categories: ["leadership"]
-draft: true
+draft: false
 ---
 [Body Dysmorphia](https://www.mayoclinic.org/diseases-conditions/body-dysmorphic-disorder/symptoms-causes/syc-20353938) is a serious mental health condition where a person will fixate on aspects of their appearance and perceive them as flaws even though these things are not often noticed by others.  For example, a person may repeatedly get botox injections because they think their lips or cheeks don't look right.  After each treatment they feel a small amount of relief, but soon after they are looking in the mirror again, right back to believing their lips aren't full enough.
 
