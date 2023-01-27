@@ -32,3 +32,5 @@ What this exercise did was make sure our leaders had a vision for what "good" lo
 One final thought... It can be really hard to be patient sometimes.  Ask any of my colleagues and they will tell you patience is not one of my natural gifts.  But in this case, investing those months into our leaders is paying off in a big way.  They are learning new tools to use to help their teams improve, and we're mitigating many of the dangers of metrics driven management by grounding all that in verifiable reality and letting the teams drive it.  We're also making sure we have a diverse set of voices helping guide us to make sure we avoid those negative outcomes I mentioned earlier.
 
 Now we just have to automate gathering all these helpful metrics.  That should be easy, right?  :-/
+
+2023 Update: I had the opportunity to talk more about how this process has been going on a podcast.  You can hear that episode here: https://anchor.fm/thetechtrek/episodes/Leaders-Need-Two-Things-Time-to-Learn-and-Time-To-Fail-e1u282d
