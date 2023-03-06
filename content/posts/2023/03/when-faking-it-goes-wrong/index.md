@@ -3,14 +3,16 @@ title: "Learning VS Failure"
 date: 2023-03-06T05:00:00-04:00
 description: "When trying to fake it till you make it goes off the rails"
 displayInMenu: false
-featuredImage: "/posts/2023/03/when-faking-it-goes-wrong/karate.jpg"
+featuredImage: "/posts/2023/03/when-faking-it-goes-wrong/lee-tournament.jpg"
 featuredImageDescription: "Claus Michelfelder, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
 categories: ["leadership", "karate lessons"]
 draft: false
 ---
 Watching someone go from confident to frustrated to outright failure is painful.
 
-I grew up doing Karate.  There are two basic types of karate tournament: Open and Closed.  The school my dad ran for many years was an American Karate school, and we participated in Open tournaments where anyone from any style could come and compete as long as they followed the basic rules about where you could strike and how hard you could hit.  Closed tournaments, on the other hand, only allow participants who share a style, like Taekwondo, or even from a certain chain of schools all run by the same company.
+I grew up doing Karate.  That's me on the right in the photo above scoring a point in my first ever tournament.  I think I was ten years old or so.
+
+There are two basic types of karate tournament: Open and Closed.  The school my dad ran for many years was an American Karate school, and we participated in Open tournaments where anyone from any style could come and compete as long as they followed the basic rules about where you could strike and how hard you could hit.  Closed tournaments, on the other hand, only allow participants who share a style, like Taekwondo, or even from a certain chain of schools all run by the same company.
 
 Over the years we saw many young, capable, determined folks from Closed systems come and try to compete in our Open tournaments.  For years they had been winning their tournaments.  Their teachers assured them they were the best they'd ever seen, and that nobody could ever beat them if they kept studying their style (and paying their monthly dues).  They came to prove to us that their style was better, or maybe to prove to themselves that what their teachers were telling them was true.
 
