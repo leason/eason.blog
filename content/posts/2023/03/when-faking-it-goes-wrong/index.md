@@ -4,7 +4,7 @@ date: 2023-03-06T05:00:00-04:00
 description: "When trying to fake it till you make it goes off the rails"
 displayInMenu: false
 featuredImage: "/posts/2023/03/when-faking-it-goes-wrong/lee-tournament.jpg"
-featuredImageDescription: "Claus Michelfelder, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
+featuredImageDescription: "Lee Eason's first karate tournament"
 categories: ["leadership", "karate lessons"]
 draft: false
 ---
