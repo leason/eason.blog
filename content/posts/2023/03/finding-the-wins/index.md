@@ -1,12 +1,12 @@
 ---
 title: "Finding the Wins"
 date: 2023-03-13T11:00:00-04:00
-description: ""
+description: "Learning how to identify your successes and build on them"
 displayInMenu: false
 featuredImage: "/posts/2023/03/finding-the-wins/Lee-4th-Place.jpg"
 featuredImageDescription: ""
 categories: ["leadership", "karate lessons"]
-draft: true
+draft: false
 ---
 I will never forget my first real tournament.  That's me above holding up my 4th place trophy from that day.  My father took me and several other students all the way from Augusta, GA, to Tennessee for it.  I was only nine or ten years old, but I will never forget how bad I wanted to make my dad proud.
 
