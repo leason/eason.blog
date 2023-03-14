@@ -18,7 +18,7 @@ But my luck didn't hold.  The other kids' dads probably caught on and told them 
 
 I wept.  Terribly.  I was so dissappointed.  I felt like a complete failure.  I remember being so confused because my dad seemed excited for me, but I thought he was just trying to cheer me up so I remained despondent.  Eventually he knelt down, took me by the shoulders and looked me straight in the eye and said, "Son, you just placed 4th out of 64 other kids in your first ever tournament.  Nobody wins their first, they don't even place.  You were amazing and I'm so proud of you!"  I felt the sincerity, and could finally feel good about what had just happened.
 
-{{<image src="./posts/2023/03/finding-the-wins/Lee-Sidekick.jpg" alt="A pretty sloppy example of a sidekick" >}}
+{{<image src="./posts/2023/03/finding-the-wins/Lee-Sidekick.jpg" alt="A pretty sloppy example of a sidekick... or maybe this is a roundhouse?" >}}
 
 A mentor shared a bit of wisdom with me a few years ago: Careers are not linear.  You are not going to win every match, and you're not going to have great victory in every struggle you face, especially early in your career (and by early I mean the first 10-15 years).  Here's the key thing: *You have to find and build on your successes as much as you learn from your failures.*  I had to internalize the success of placing at all in that tournament in order to recognize the things that went well so I could build on them.
 
