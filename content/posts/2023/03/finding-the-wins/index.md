@@ -28,4 +28,4 @@ These things will feel like failures.  Instead, see the win in getting that firs
 
 Each of these experiences take months or years to fully grasp.  Each of them helps you ease your nerves, learn new skills, and hone your intuition.  These experiences become the foundation of your authority, and you simply cannot fake, skip, or shortcut that process.  
 
-I ended up really enjoying the fighting aspect of Karate.  I didn't win every tournament after that first one, but I was proud to take home a lot of trophies.  When I think about those subsequent victories and how those lessons benefited my career, I can see now how it all started with that 4th place plaque.
+I ended up really enjoying the competitive aspect of Karate.  I didn't win every tournament after that first one, but I was proud to take home a lot of trophies.  My sidekick stayed a big part of my repertoire, but I added a lot of other go-to techniques to it and became a fairly well rounded fighter.  When I think about those subsequent victories and how those lessons benefited my career, I can see now how it all started with that 4th place plaque.
