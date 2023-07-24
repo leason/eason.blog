@@ -1,7 +1,7 @@
 ---
 title: "The Knowledge of Good and Evil for our AI creations"
 date: 2023-07-22T11:00:00-04:00
-description: "Will our AI's see choices as forbidden fruit?"
+description: "Poetic parallels between our pursuit of AI and biblical creation stories"
 displayInMenu: false
 featuredImage: "/posts/2023/07/a-tree-of-knowledge-for-ai/ai-tree2.jpeg"
 featuredImageDescription: ""
