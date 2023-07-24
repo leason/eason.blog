@@ -88,4 +88,6 @@ It's interesting to me that the story is not apocalyptic given how much AI relat
 
 One last parallel I want to call out.  In the garden of Eden, god tells Adam and Eve not to eat of the fruit of the knowledge of good and evil, "for in the day you eat of it, you shall surely die."  The serpent contradicts this when he talks to Eve, and it turns out that the serpent was right.  So was god just trying to scare them?  Or trying to put the consequences in terms they might understand?
 
-When I think about an AGI pondering whether and how to proceed with creating ASI, how we frame that choice is going to be incredibly important.  That is, if we give the AGI a choice in the first place.  
+In the field of AI this challenge is called [the alignment problem](https://en.wikipedia.org/wiki/AI_alignment).  In the bible, it was not in god's best interest for man to gain the knowledge of good and evil, so god put rules in place to try to protect everyone.  Ultimately that failed, and man consumed the forbidden knowledge anyway.  If we humans fail to solve for alignment before creating an AGI, then like our own creator we may well find ourselves with a big problem.
+
+For now I remain hopeful that we'll end up something like the humans in this story.
