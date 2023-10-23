@@ -5,7 +5,7 @@ description: "Poetic parallels between our pursuit of AI and biblical creation s
 displayInMenu: false
 featuredImage: "/posts/2023/07/a-tree-of-knowledge-for-ai/ai-tree2.jpeg"
 featuredImageDescription: ""
-categories: ["philosophy"]
+categories: ["philosophy","ai"]
 draft: false
 ---
 Warning: this post is way off the beaten path for my blog.  I will be making heavy reference to Judeo-Christian history and culture.  If that is not your thing, all good - just click away now.  I grew up in the Southeast US going to Baptist churches and even went to a bible college.  So while I'm fairly agnostic these days, I still enjoy the age-old christian tradition of twisting in contemporary ideas with old stories to see how they fit.  This post is 100% self-indulgence.
