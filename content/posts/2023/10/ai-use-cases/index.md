@@ -1,7 +1,7 @@
 ---
 title: "AI Use Cases"
 date: 2023-10-23T11:00:00-04:00
-description: "Making the case for using AI tools as a decision assistance tool"
+description: "There are plenty of ways to leverage current AI tools for decision assistance"
 displayInMenu: false
 featuredImage: "/posts/2023/10/ai-use-cases/ai-components.png"
 featuredImageDescription: ""
@@ -21,11 +21,11 @@ I've given it census data and asked it to find relationships between things – 
 
 It even helped me be petty with my HOA.  They have a rule the entire neighborhood hates about keeping beverages 4 feet away from the edge of the community pool.  I know, super lame, right?  When I asked why we have that rule, the explanation was that spilling beverages in the pool would hurt the pH balance.  I used Data Analyzer to prove that it would take 184,178 beers to alter the pH balance of that pool enough to matter.  I got a lot of high-fives from my neighbors for the Facebook post I made about it.
 
-To be clear, I had no idea how to calculate that.  I asked data analyzer what it would need to know in order to do it.  All it needed from me were the dimensions of the pool.  It looked up guidelines on public pool pH balance, as well as the average pH value of beer.  It figured out all the formulas and plugged in all the variables.  Therein lies the power: AI can help you figure out what you don't know.  It lowers the cost of deeper and more thorough analysis of problems, even petty ones.
+To be clear, I had no idea how to calculate that - I'm not a pool man!  I asked data analyzer what it would need to know in order to do it.  All it needed from me were the dimensions of the pool.  It looked up guidelines on public pool pH balance, as well as the average pH value of beer.  It figured out all the formulas and plugged in all the variables.  Therein lies the power: *AI can help you figure out what you don't know.*  It lowers the cost of deeper and more thorough analysis of problems, even petty ones.
 
-The crazy thing about using Data Analyzer is that you get to watch the AI reason its way through a problem.  It often splits a task up into many steps, executing and checking the results one at a time.  It's fascinating to watch because it's so human-like and relatable, even/especially when it's doing something I don't know how to do very well. 
+The interesting thing about using Data Analyzer is that you get to watch the AI reason its way through a problem.  It often splits a task up into many steps, executing and checking the results one at a time.  It's fascinating to watch because it's so human-like and relatable, even/especially when it's doing something I don't know how to do very well. 
 
-# Caveat: describing what you want is sometimes hard
+# Caveat: describing what you want is hard
 I went in on a Carolina Hurricanes season ticket package this year with a few other families.  I can't possibly go to every game but the perks of buying a full season are nice, so this way we get to have our cake and eat it too.  I figured dividing up the tickets using an AI would be an easy way to fairly distribute the games.  Boy was I wrong.
 
 It seems simple: just supply a list of all the games and dates to the AI, and tell it to divide the games evenly, right?  But then you want to make sure each family gets the same number of weekend games.  And you don't want one family to get the first two months of games, then the next gets the next two months – you want to evenly distribute the games throughout the season.  And you don't want one family to get more than one game in a weekend… 
