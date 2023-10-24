@@ -8,12 +8,10 @@ featuredImageDescription: ""
 categories: ["ai"]
 draft: false
 ---
-_I, for one, welcome our new AI overlords_
-
-That iconic line from H.G. Wells' short story, Empire of the Ants, has been meme'd hundreds of ways from the Simpsons to Jeopardy.  It seems apropos to use it now given the popularity that AI and Large Language Models (LLMs) such as ChatGPT have gained over the past year.  This is a high level look at the types of things I'm finding work well and where the challenge has been, as well as some links to books to go deeper.
+Amidst the hype surrounding AI there are real, practical ways that these tools are providing value.  This is a high level look at the types of things I'm finding work well and where the challenge has been, as well as some links to books to go deeper.
 
 # Data Analyzer is a game changer
-The paid version of ChatGPT has a feature called Data Analyzer and it exemplifies the near-term potential of AI. Data Analyzer allows you to upload files, like a PDF or spreadsheet, and then "talk" to the AI about it.
+The paid version of ChatGPT has a model called Data Analyzer and it exemplifies the near-term potential of AI. Data Analyzer allows you to upload files, like a PDF or spreadsheet, and then "talk" to the AI about it.
 
 Behind the scenes ChatGPT is composing and running programming code to solve problems, but all that complexity stays hidden.  It feels like you are talking to a data scientist who reasons out what you want to learn, gains insights from the data, and then explains the results to you with words and charts.
 
