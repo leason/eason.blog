@@ -1,16 +1,18 @@
 ---
 title: "Your accomplishments won't regain trust on their own"
-date: 2023-10-23T12:00:00-04:00
+date: 2023-10-30T05:00:00-04:00
 description: "Why it takes more than just getting things done to regain trust with a colleague"
 displayInMenu: false
 featuredImage: "/posts/2023/11/regaining-trust/alignment.png"
 featuredImageDescription: ""
 categories: ["leadership"]
-draft: true
+draft: false
 ---
 Conflict in the workplace is inevitable.  I have seen many instances (some were me) where The Hero works valiantly to repair trust and win back support from their colleagues, only to find that their Villains still end up wanting them gone.  It's frustrating for everyone involved.  I'm going to tell you one common reason why.
 
-**Once lost, no amount of "getting stuff done" will win back trust and support alone.**  You may occasionally convert a detractor into a neutral party that way, but they will never become a promoter without a campaign of aggressive marketing founded on alignment.  There's a pretty straight-forward approach to this that you can try:
+**Once lost, no amount of just "getting stuff done" will win back trust and support.**  You may occasionally convert a detractor into a neutral party that way, but they will never become a promoter without a campaign of aggressive marketing founded on alignment.  You have to overcome the bias they have built up against you.  
+
+While it may feel hopeless, often it's not.  Here's a straight-forward approach to this that you can try:
 
 1. Sit down with your detractor 1:1 and make sure you understand their needs.  What is it that their leader is asking from them?
 1. Align to those goals.  What is your team responsible for that they require, or that would help them in their mission?  Let's assume they have have to deliver Project Foo in the next six months and they are super stressed about it.
