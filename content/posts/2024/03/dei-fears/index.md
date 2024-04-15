@@ -1,7 +1,7 @@
 ---
 title: "An Exposition of DEI critical themes"
 date: 2024-03-31T11:00:00-04:00
-description: "I'm shifting my mentoring approach to exclude people who can't be bothered to read."
+description: "There is some healthy, and some not so healthy, debate about DEI happening now. In this post I try to pull together the themes I'm hearing and give my perspective on these things.  This is by no means an exhaustive treatment of the topic."
 displayInMenu: false
 featuredImage: "/posts/2024/03/dei-fears/teamposter.webp"
 featuredImageDescription: ""
@@ -9,6 +9,10 @@ categories: ["philosophy","leadership"]
 draft: false
 ---
 As I prepped for a panel discussion at a DEI focused conference recently, I spent some time reflecting on a lot of recent conversations I've found myself in.  In this post I wanted to try and pull together some observations and themes to share where I see attitudes falling, and share my thoughts as well.  
+
+My goal here is not defend specific implementations of DEI, or to suggest that anyone who criticizes those things is a bad person.  I've been guilty of creating hostile environments for people.  I never thought of myself as a bad person, even in those times.  When I was able to see those situations from the other person's perspective, whether a candidate for a role or a team mate, I was horrified.  Trying to understand different viewpoints helps us expand our perspective, and hopefully effect a better world for each other.
+
+> To me the goal of DEI is not to force statistically even groupings of demographics.  **The goal is to remove barriers that have nothing to do with someone's ability to do a job well and be paid equitably to do it.**
 
 Generally the folks I find critical of DEI seem to fall into one of these camps.  They either:
 
@@ -18,7 +22,7 @@ Generally the folks I find critical of DEI seem to fall into one of these camps.
 - Or, don't think DEI is actually solving for these barriers at all and, in fact, might be making things worse (DEI is Lie).
 
 ## People who think Inequality is a Lie
-We all saw a stark reminder that two people can look at the same facts and come to wildly different conclusions during the COVID madness.  I see progressives sometimes too quick to dismiss or even belittle people that don't see things the same way they do, but there is science that helps us understand the disconnect.  People don't interpret reality the same way, and [your level of social egalitarianism will heavily influence how you see the effects and impacts of social inequity](https://insight.kellogg.northwestern.edu/article/perceptions-of-inequality).  
+We all saw a stark reminder that two people can look at the same facts and come to wildly different conclusions during the COVID madness.  People are often too quick to dismiss or even belittle people that don't see things the same way they do, but there is science that helps us understand the disconnect.  People don't interpret reality the same way, and [your level of social egalitarianism will heavily influence how you see the effects and impacts of social inequity](https://insight.kellogg.northwestern.edu/article/perceptions-of-inequality).  
 
 I think that you can develop that sense of egalitarianism.  For me it came slowly, painfully, and through a lot of reflection about the impact I was having on the people around me.  If I could have an outsized impact on someone through thoughtless words, and if my interview techniques that seemed so sensible could turn out to be so horrible, it isn't a stretch to imagine how the fabric of our corporate world could have developed a kind of rot that all these studies and social commentators have been pointing out for decades.  In short, I increased how much I cared about the humans around me and started listening more.
 
@@ -37,7 +41,7 @@ We're not there yet.  And we have to be careful not to fall into a trap of think
 ## DEI is a Lie
 And now for the most interesting theme I've come across.  People who gravitate to this position acknowledge there is inequality in our society, and that barriers exist for people based on gender or race, and they believe those things are morally wrong, but believe that DEI is not solving these problems at all.  In fact, if you follow this line of thinking you'll end up concluding that DEI is itself racist, because it drives people to change their behavior on the basis of race (ie, hiring quotas or admissions restrictions).
 
-The issue I have with this argument is that it shouldn't be relevant.  To me the goal of DEI is not to force statistically even groupings of demographics.  **The goal is to remove barriers that have nothing to do with someone's ability to do a job well and be paid equitably to do it.**  There is no shortage of studies that conclude wage and employment gaps are real, but rather than choose metrics that encourage leaders to develop under represented talent, resolve pay inequity, or engage in socially minded programs that improve opportunities we keep looking at the snapshot of how many women VS men and white VS everyone else is currently at a company.
+The issue I have with this argument is that it shouldn't be relevant.  Again, I believe the goal of DEI is not to enforce specific demographic standards.  **The goal is to remove barriers that have nothing to do with someone's ability to do a job well and be paid equitably to do it.**  There is no shortage of studies that conclude wage and employment gaps are real, but rather than choose metrics that encourage leaders to develop under represented talent, resolve pay inequity, or engage in socially minded programs that improve opportunities we keep looking at the snapshot of how many women VS men and white VS everyone else is currently at a company.
 
 For folks in this camp, [Campbell's law](https://en.wikipedia.org/wiki/Campbell%27s_law) has taken effect and now they associate the DEI moniker with the corruption it warns us of.
 ![linechart showing continuum of a persons life with the first 90% labelled "lots of important stuff" and the last little bit marked as "get a job"](deifocus.jpg "continuum of a life")
@@ -68,4 +72,4 @@ We use phrases like "best qualified" as if that's some kind of objective measure
 So when I hear people criticizing DEI on the grounds that you should just "hire the most qualified person for the role" I groan a little, because I know first hand how easy it is to use that angle to make yourself upset about the DEI conversation.
 
 ## Conclusion (for now)
-This is obviously an emotionally charged topic, and I worry we are dangerously close to a point where white people bifurcate into a silent, disengaged group who more and more sees DEI as a negative force, and another group that wants to help but is scared of getting it wrong.  I was scared to write this post.  But I strongly believe we need to get these questions on the table and talk about them so that we can sort these things out.  I think we all collectively need to accept that we're not going to get every DEI related effort perfect from day one.  We need to learn, improve, and stay focused on the underlying goals.  After all, when we make progress on these things _we all win._ 
+This is obviously an emotionally charged topic, and I worry we are dangerously close to a point where some white people bifurcate into a silent, disengaged group who more and more sees DEI as a negative force, and another group that wants to help but is scared of getting it wrong.  I was scared to write this post.  But I strongly believe we need to get these questions on the table and talk about them so that we can sort these things out.  I think we all collectively need to accept that we're not going to get every DEI related effort perfect from day one.  We need to learn, improve, and stay focused on the underlying goals.  After all, when we make progress on these things _we all win._ 
