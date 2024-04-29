@@ -2,8 +2,7 @@ baseURL = "https://eason.blog/"
 languageCode = "en-us"
 title = "Lee Eason's personal blog"
 theme = "aether"
-disqusShortname = "eason-personal-blog"
-googleAnalytics = "UA-136928251-1"
+googleAnalytics = "G-2N3C69L9GL"
 
 [params]
   brand = "Eason Development"
