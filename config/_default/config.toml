@@ -9,5 +9,6 @@ googleAnalytics = "G-2N3C69L9GL"
   description = "Pragmatic software development tips from the front lines"
   homeimg = "/images/footer-hex.png"
   twitterHandle = "leejeason"
+  linkedInName = "leejeason"
   shareOnLinkedIn = true
   shareOnTwitter = true
