@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "About me"
 date: 2019-03-21T21:07:24-04:00
 description: "A little bit about the guy who writes this stuff."
 displayInMenu: true
@@ -8,23 +8,14 @@ draft: false
 
 Hello.  I'm Lee Eason.
 
-Like you, I'm still in development.  For a bit, I thought I was going to be a
-[herpetologist](https://en.wikipedia.org/wiki/Herpetology).  Then I got bit by a 12 foot [Olive Python](https://en.wikipedia.org/wiki/Liasis_olivaceus) and switched to English teaching. Then I found out about grammar and decided I'd rather teach History.
+Like you, I'm still in development.  My career has been anything but linear or planned out.  For a bit, I thought I was going to be a [herpetologist](https://en.wikipedia.org/wiki/Herpetology).  Then I got bit by a 12 foot [Olive Python](https://en.wikipedia.org/wiki/Liasis_olivaceus) and quickly switched to English teaching. Then I found out grammar was basically math and decided I'd rather teach History.
 
 {{<smallimg smartfloat="left" width="380px" src="images/olivepython.jpg">}}
 
-Then I took an internship at a tech company in the late 90's and fell in love with the whole thing. People were sleeping under their desks, and they introduced me to sushi. It was amazing.
+Then I took an internship at a tech company in the late 90's and discovered the incredible world of the technology business. The people I worked with were so passionate and fun.  I deferred my dream of teaching and decided to try and make my way in the tech field.
 
-Then the tech bubble burst and I had to beg on my knees for a job at a furniture factory where I ran network cable
-and built desktop computers.  But then I built a software program for them to manage their business, and I fell in love with that whole process.
+I have eclectic interests.  For a while I rode horses, trained people on how to work with them, and I even rode a bull.  I've flown airplanes, played chess, acted in commercials, wrote stories and poems, played guitar and sang in public (still do), had two incredible kids, built carpentry projects, worked on my cars, drank a lot of wine and scotch, spoke at conferences, played ice hockey, fought in karate tournaments, surfed, taught sunday school, and studied philosophy.  I still enjoy most of those things today.
 
-For a while I rode horses, trained people on how to work with them, and I even rode a bull. Twice. I've flown airplanes, played chess, acted in commercials, wrote stories and poems, played guitar, had two incredible kids, overcome crippling fear and actually sang in front of people, built carpentry projects, drank a lot of wine and scotch, spoke at conferences, played ice hockey, won karate tournaments, surfed, taught sunday school, and studied Spinoza.
-
-I still love history.
-
-But for the past 18 years I've built a career in software development and I love it.  I love the people, I love
-the craft, and I love the squishy human challenges of building technology driven products.
-
-I love that all of us are heroes in our own stories.  Figuring out how to align those stories to things that make a company successful is my passion.
+Over the past 23+ years I've built a career in software development.  From coding to architecture to leadership and transformation, I love the complexity of the human challenges in building technology driven products.  I've found my voice as a writer, speaker, and leader thanks to many amazing mentors along the way.  I use this blog as an outlet for things that could help others, drawing on my personal and professional experiences.
 
 For me, it's never been about the one's and zero's.  It's always been about the infinite and beautiful shades of grey in between.
