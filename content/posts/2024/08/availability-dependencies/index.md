@@ -20,33 +20,50 @@ Here we have a user facing web application called [Tekata.io](https://dojo.tekat
 If Tekata.io has a monthly availability goal of 99.9%, that means it can be down for 43 minutes and 28 seconds per month.  _(Shoutout to [Uptime.is](https://uptime.is/99.9) for this type of information, btw)_  The Tekata.io team may need to do some maintenance work that requires downtime, they may deploy a bug that breaks the application and takes it down until they can fix it, or - and this is often the case - one of those many dependencies may go down.  All of these things affect the availability of Tekata.io.  Let's focus on the dependencies.
 
 ## Dependency uptime equation
-We can use an equation to determine what the uptime requirements of those dependencies has to be in order for Tekata.io to meet its goal.  It looks like this:
+We can use an equation to express the relationship between the uptime of dependencies to the uptime of the application.  It looks like this:
 
+    Givens:
     A = application uptime
     U = dependency uptime
     N = number of dependencies
 
-    A = U^N
+{{< raw >}}
+\[ A = U^N \]
+{{< /raw >}}
+
 So for our example architecture, we would get:
 
-    0.999 = 0.99985^7
+{{< raw >}}
+\[ 0.999 = 0.9999^7 \]
+{{< /raw >}}
     
-Meaning, each dependency has to have an uptime of [99.99%](https://uptime.is/99.99) (rounded) in order for Tekata.io to have a chance of hitting it's goal.  That's only 4 minutes and 21 seconds per month - much less than Tekata.io itself.  _And that doesn't allow for maintenance or unplanned outages_ - so you'll have to go even higher to account for that.  Meaning, this equation gives you the bare minimum uptime for dependencies and you'll likely need to adjust it higher based on your needs.
+Meaning, each dependency has to have an uptime of [99.99%](https://uptime.is/99.99) in order for Tekata.io to have a chance of hitting it's goal.  That's only 4 minutes and 21 seconds per month - much less than Tekata.io itself.  _And that doesn't allow for maintenance or unplanned outages_ - so you'll have to go even higher to account for that.  Meaning, this equation gives you the bare minimum uptime for dependencies and you'll likely need to adjust it higher based on your needs.
 
 ## Finding the required uptime of your dependencies
 Now we get to use algebra to rework the equation to find the dependency uptime requirement.  When your unknown variable is `U` you'll have to take the `Nth` root of `A`.  My high school math teacher would be so proud of me right now.  It works like this:
 
-    U = A^(1/N)
-    U = 0.999^(1/7)
-    U = 0.999^0.143
-    U = 0.99985
+{{< raw >}}
+\[ 
+\begin{aligned}
+&U = A^{1/N} \\ 
+&U = 0.999^{1/7} \\
+&U = 0.999^{0.143} \\
+&U = 0.99985
+\end{aligned}
+\]
+{{< /raw >}}
 
 You can use the formula in the other direction as well, to find out what your best case uptime is given the uptime of your dependencies.  For example, if the average uptime of those dependencies is actually 99.5%, then the best case scenario uptime of Tekata.io would be **96.6%**.
 
-    A = U^N
-    A = 0.995^7
-    A = 0.9655
-
+{{< raw >}}
+\[
+\begin{aligned}
+&A = U^N \\
+&A = 0.995^7 \\
+&A = 0.9655 
+\end{aligned}
+\]
+{{< /raw >}}
 Yikes - that's pretty scary.  Because we're using exponents that means the uptime impact of dependencies is exponential as well - a small change in uptime of a dependency will have an outsized impact on the applications that rely on it.
 
 # Conclusion
