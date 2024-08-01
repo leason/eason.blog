@@ -8,13 +8,13 @@ featuredImageDescription: ""
 categories: ["devops"]
 draft: false
 ---
-I fondly remember the days when a web application was nothing more than PHP code and a MySQL database.  And that database didn't do anything but drive the one, singl
+I fondly remember early in my software writing journey when a web application was nothing more than PHP code and a MySQL database.  And that database didn't do anything but drive the one, single, beautifully simple PHP app which usually ran on one server in a closet somewhere.  It ain't like that anymore.
 
 John Donne was one of my favorite poets when I was in high school. [The Flea](https://en.wikipedia.org/wiki/The_Flea_(poem)) was my favorite poem from him, but a line from [Devotions upon Emergent Occasions](https://en.wikipedia.org/wiki/Devotions_upon_Emergent_Occasions) has stood the test of time better: **"No man is an island."**
 
 Similarly, no SaaS application is an island either.  Modern applications rest on top of many APIs, databases, and layers of shared infrastructure, and often rely on other user facing applications as well, all of which spider out in a web of dependencies that can be daunting to try and visualize.  Let's look at a simple example:
 ![image](/posts/2024/08/availability-dependencies/tekata-arch-basic.png)
-Here we have a user facing web application called [Tekata.io](https://dojo.tekata.io) that allows a user to create Teams, define Skills for those teams, and get Insights about skill gaps on the teams.  The application has seven dependencies.  It relies on a few AWS services such as Cognito for authentication, S3 for storage, and several custom APIs that drive functionality related to Teams, Skills, and Insights.  Those APIs also depend on AWS services for database (RDS) and the container that their logic runs in (Lambda).
+Here we have a user facing web application called [Tekata.io](https://dojo.tekata.io) that allows a user to create Teams, define Skills for those teams, and get Insights about skill gaps on the teams.  The application has seven dependencies.  It relies on a few AWS services such as Cognito for authentication, S3 for storage, and several custom APIs that drive functionality related to Teams, Skills, and Insights.  Those APIs also depend on AWS services for database (RDS) and the compute that their logic runs in (Lambda).
 
 # A practical example
 If Tekata.io has a monthly availability goal of 99.9%, that means it can be down for 43 minutes and 28 seconds per month.  _(Shoutout to [Uptime.is](https://uptime.is/99.9) for this type of information, btw)_  The Tekata.io team may need to do some maintenance work that requires downtime, they may deploy a bug that breaks the application and takes it down until they can fix it, or - and this is often the case - one of those many dependencies may go down.  All of these things affect the availability of Tekata.io.  Let's focus on the dependencies.
