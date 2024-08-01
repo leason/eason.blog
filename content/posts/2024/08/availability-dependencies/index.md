@@ -6,7 +6,7 @@ displayInMenu: false
 featuredImage: "/posts/2024/08/availability-dependencies/islandprogram.webp"
 featuredImageDescription: ""
 categories: ["devops"]
-draft: true
+draft: false
 ---
 I fondly remember the days when a web application was nothing more than PHP code and a MySQL database.  And that database didn't do anything but drive the one, singl
 
