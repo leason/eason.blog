@@ -66,6 +66,75 @@ You can use the formula in the other direction as well, to find out what your be
 {{< /raw >}}
 That's pretty scary.  Because the relationship between an application and its dependencies relies on an exponent, the uptime impact of dependencies is exponential as well - a small change in uptime of dependencies will have an outsized impact on applications that rely on them.
 
+## Handy Dandy Calculator (because why not?)
+Have some fun playing with the calculator below.  Just insert your number of dependencies and desired application uptime and it will display the required uptime of those dependencies.
+
+{{< raw >}}
+    <div class="widget">
+        <div class="input-group">
+            <label for="dependencies">Number of Dependencies (0-5000):</label>
+            <input type="number" id="dependencies" min="0" max="5000">
+            <div id="dependenciesError" class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="uptime">Application Uptime Target (0-100):</label>
+            <input type="number" id="uptime" min="0" max="100" step="0.01">
+            <div id="uptimeError" class="error"></div>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        const dependenciesInput = document.getElementById('dependencies');
+        const uptimeInput = document.getElementById('uptime');
+        const resultDiv = document.getElementById('result');
+        const dependenciesError = document.getElementById('dependenciesError');
+        const uptimeError = document.getElementById('uptimeError');
+
+        function validateInputs() {
+            let isValid = true;
+            const dependencies = parseInt(dependenciesInput.value);
+            const uptime = parseFloat(uptimeInput.value);
+
+            dependenciesError.textContent = '';
+            uptimeError.textContent = '';
+
+            if (isNaN(dependencies) || dependencies < 0 || dependencies > 5000) {
+                dependenciesError.textContent = 'Please enter a number between 0 and 5000.';
+                isValid = false;
+            }
+
+            if (isNaN(uptime) || uptime < 0 || uptime > 100) {
+                uptimeError.textContent = 'Please enter a number between 0 and 100.';
+                isValid = false;
+            }
+
+            return isValid;
+        }
+
+        function calculateUptimeRequirement() {
+            if (!validateInputs()) {
+                resultDiv.textContent = '';
+                return;
+            }
+
+            const N = parseInt(dependenciesInput.value);
+            const A = parseFloat(uptimeInput.value) / 100; // Convert percentage to decimal
+
+            if (N === 0) {
+                resultDiv.textContent = 'Dependency Uptime Requirement: N/A (No dependencies)';
+                return;
+            }
+
+            const U = Math.pow(A, 1 / N) * 100; // Convert back to percentage
+            resultDiv.textContent = `Dependency Uptime Requirement: ${U.toFixed(4)}%`;
+        }
+
+        dependenciesInput.addEventListener('input', calculateUptimeRequirement);
+        uptimeInput.addEventListener('input', calculateUptimeRequirement);
+    </script>
+    {{< /raw >}}
+
 # Conclusion
 We're keeping things very simple here.  In reality you could break the equation up into multiple levels to capture the nesting nature of Tekata.io's reliance on RDS and Lambda.  When you do that it drives their uptime up even higher.  However, that math gets more complicated and I'm not sure that it really changes the numbers enough to make it worth the effort.  If any of you reading this are interested in that level of detail let me know and I'll do a follow up on it.
 
