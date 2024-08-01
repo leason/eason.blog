@@ -70,6 +70,38 @@ That's pretty scary.  Because the relationship between an application and its de
 Have some fun playing with the calculator below.  Just insert your number of dependencies and desired application uptime and it will display the required uptime of those dependencies.
 
 {{< raw >}}
+    <style>
+        .widget {
+            font-family: Arial, sans-serif;
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .input-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .error {
+            color: red;
+            font-size: 0.8em;
+            margin-top: 5px;
+        }
+    </style>
+
     <div class="widget">
         <div class="input-group">
             <label for="dependencies">Number of Dependencies (0-5000):</label>
