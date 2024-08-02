@@ -159,8 +159,9 @@ Have some fun playing with the calculator below.  Just insert your number of dep
             }
 
             const U = Math.pow(A, 1 / N) * 100; // Convert back to percentage
-            resultDiv.textContent = `Dependency Uptime Requirement: <a href="https://uptime.is/${U.toFixed(4)}%">${U.toFixed(4)}%</a>`;
-        }
+            const formattedU = U.toFixed(4);
+            const uptimeLink = `https://uptime.is/${formattedU}`;            
+            resultDiv.innerHTML = `Dependency Uptime Requirement: <a href="${uptimeLink}" target="_blank">${formattedU}%</a>`;        }
 
         dependenciesInput.addEventListener('input', calculateUptimeRequirement);
         uptimeInput.addEventListener('input', calculateUptimeRequirement);
