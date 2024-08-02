@@ -1,7 +1,7 @@
 ---
 title: "Application Availability Depends on Dependencies"
 date: 2024-08-01T11:00:00-04:00
-description: "No SaaS application is an island"
+description: "No SaaS application is an island. Learn how to calculate the required uptime of dependencies based on your application uptime requirements.  Plus use a handy calculator!"
 displayInMenu: false
 featuredImage: "/posts/2024/08/availability-dependencies/islandprogram.webp"
 featuredImageDescription: ""
@@ -104,14 +104,14 @@ Have some fun playing with the calculator below.  Just insert your number of dep
 
     <div class="widget">
         <div class="input-group">
-            <label for="dependencies">Number of Dependencies (0-5000):</label>
-            <input type="number" id="dependencies" min="0" max="5000">
-            <div id="dependenciesError" class="error"></div>
-        </div>
-        <div class="input-group">
             <label for="uptime">Application Uptime Target (0-100):</label>
             <input type="number" id="uptime" min="0" max="100" step="0.01">
             <div id="uptimeError" class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="dependencies">Number of Dependencies (0-5000):</label>
+            <input type="number" id="dependencies" min="0" max="5000">
+            <div id="dependenciesError" class="error"></div>
         </div>
         <div id="result"></div>
     </div>
@@ -159,7 +159,7 @@ Have some fun playing with the calculator below.  Just insert your number of dep
             }
 
             const U = Math.pow(A, 1 / N) * 100; // Convert back to percentage
-            resultDiv.textContent = `Dependency Uptime Requirement: ${U.toFixed(4)}%`;
+            resultDiv.textContent = `Dependency Uptime Requirement: <a href="https://uptime.is/${U.toFixed(4)}%">${U.toFixed(4)}%</a>`;
         }
 
         dependenciesInput.addEventListener('input', calculateUptimeRequirement);
