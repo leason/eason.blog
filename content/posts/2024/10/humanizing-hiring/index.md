@@ -1,12 +1,12 @@
 ---
 title: "Humanizing Hiring"
 date: 2024-10-17T11:00:00-04:00
-description: ""
+description: "What is it like to search for a job or hire someone today, and why on earth are we tolerating this mess?  Why is it so hard to fix the job seeking and hiring process?  Plus you get to play with another fun calculator."
 displayInMenu: false
 featuredImage: "/posts/2024/10/humanizing-hiring/application-process.png"
 featuredImageDescription: ""
-categories: ["leadership"]
-draft: true
+categories: ["leadership","pandemic lessons","philosophy"]
+draft: false
 ---
 The current state of job seeking and hiring is terribly painful.  There is a huge imbalance in the time and emotional investment of a job seeker VS the system involved in hiring them.  From my vantage point this has gotten progressively worse over the last ten years, but the explosion of fully remote roles has rapidly accelerated the problem.  Frankly I think we are overdue for a disruption.
 
@@ -39,9 +39,9 @@ For example, a job seeker might indicate things such as:
 
 You can see how a hiring leader might describe their ideal candidate similarly.  Like a credit card pre-approval, now I don't have to apply for a role - I just pick the ones from a list I want to raise my hand for that are already bi-directional matches.  I can become an eligible applicant to hundreds of jobs in the five minutes it used to take me to apply to one.
 
-I don't have to wonder if I'm qualified, or if something inconsequential about my resume caused me to get filtered out by an applicant tracking system.  I can see which companies have had a human actually review my profile or project portfolio.  If they decline, I can see that.  When one of the companies I "applied" to starts interviewing people, I can see that and the system can call out what parts of my profile are different.  Same as when they actually hire someone.
+I don't have to wonder if I'm qualified, or if something inconsequential about my resume caused me to get filtered out by an applicant tracking system.  I can see which companies have had a human actually review my profile or project portfolio.  If they decline, I can see that.  When one of the companies I "applied" to starts interviewing people, I can see that too and the system can call out what parts of my profile differed from theirs.  Same as when they actually hire someone.  Companies that poorly describe what they are actually looking for are penalized with lower rankings and candidates will be less inclined to give them a chance.  Candidates who misrepresent themselves would likewise be penalized, a la Uber.
 
-The system could obfuscate elements of the applicant's information that could lead to unconscious bias such as their name and location information until it's relevant, such as during the interview itself.
+The system could also obfuscate elements of the applicant's information that could lead to unconscious bias such as their name and location information until it's relevant, such as during the interview itself.
 
 Compare that experience and filtering effectiveness to the status quo of keyword matching in a resume.
 
