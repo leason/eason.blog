@@ -29,6 +29,7 @@ For example, a job seeker might indicate things such as:
  - I am okay trading some base compensation for RSUs.
  - 401k match is very important to me.
  - I am happy to work 35-50 hours per week.
+ - I have 12 years of experience as an engineer.
  - I want to be challenged to learn new skills as part of my work.
  - I want to write code and I have proven proficiency in React, Python, and C#.
  - I do not aspire to be a people leader, I want to build things.
