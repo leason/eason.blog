@@ -3,7 +3,7 @@ title: "Humanizing Hiring"
 date: 2024-10-17T11:00:00-04:00
 description: "What is it like to search for a job or hire someone today, and why on earth are we tolerating this mess?  Why is it so hard to fix the job seeking and hiring process?  Plus you get to play with another fun calculator."
 displayInMenu: false
-featuredImage: "/posts/2024/10/humanizing-hiring/application-process.png"
+featuredImage: "/posts/2024/10/humanizing-hiring/claw-hiring.webp"
 featuredImageDescription: ""
 categories: ["leadership","pandemic lessons","philosophy"]
 draft: false
@@ -44,17 +44,17 @@ I don't have to wonder if I'm qualified, or if something inconsequential about m
 
 The system could also obfuscate elements of the applicant's information that could lead to unconscious bias such as their name and location information until it's relevant, such as during the interview itself.
 
-Compare that experience and filtering effectiveness to the status quo of keyword matching in a resume.
+Compare that experience and filtering effectiveness to the status quo of keyword matching in a resume.  I tried using AI models to see how many of those elements I could extract from my own resume, and at best they got 3 of them reliably.
 
-# Why hasn't something like this been built?
+# Why hasn't a platform like this been built?
 A system like this could lower the time to fill a role dramatically.  Even for firms that require a background check, the system could allow applicants to complete that step once and have a validated check ready for all roles that need it.  One would think that lowering time to fill from 60 days to 15 would be really valuable, right?
 
 There have been attempts to make things like Tender for hiring, but they haven't caught on.  Partly, I think, because the companies trying to build them just don't have the clout or resources to get enough critical mass in applicants and companies to get traction.  There's also complexity in the types of requirements a company has in regulated industries.  But I think the bigger obstacle is a bit more insidious and simple.  As always, it's about money.
 
 Consider [POSIWID](https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does): the current system ruthlessly culls applicants and drags out the hiring process.  Why?  Because that is in the financial interest of the companies doing the hiring.
 
-## Lag time in hiring impacts the bottom line positively
-When it takes 60 days to fill an empty role, that is two months salary and benefits the company doesn't have to pay someone.  The total cost of an employee can be as high as 1.4x their salary thanks to taxes, benefits, etc.  Hiring managers complain about hiring lag time frequently, and yet their firms do very little to decrease it.  Because saving 16% of a full time person's cost is one way to recoup the cost they incur in backfilling them, especially when corporate culture pushes the team dealing with that empty seat to work extra to make up the slack.  Ultimately that lag time doesn't end up costing the company a lot of productivity.
+## Open roles save money
+When it takes 60 days to fill an empty role, that is two months salary and benefits the company doesn't have to pay someone.  The total cost of an employee can be 1.3x or more of their salary thanks to taxes, benefits, bonuses, etc.  Hiring managers complain about hiring lag time frequently, and yet their firms do very little to decrease it.  Because saving 16% of a full time person's cost is one way to recoup the cost they incur in backfilling them, especially when corporate culture pushes the team dealing with that empty seat to work extra to make up the slack.  Ultimately that lag time doesn't end up costing the company a lot of productivity.
 
 Want to know just how much money this might be for your company?  Use the calculator below to see for yourself.  The bigger your company, the bigger the annual savings.
 
@@ -131,8 +131,10 @@ Who is the buyer of a system like this?  Job seekers likely don't have an income
 
 Now... I've never heard a CFO say anything to support that theory and the point of this thought exercise is not to demonize executives.  It's highly likely that the startups that have tried this so far just haven't executed well.  I simply want to offer up some thoughts I have not seen discussed much to explore the odd situation we are in.  It's not often that there is so much clear pain, seemingly obvious value to so many businesses, and so much time passing with no real improvement or change.  I'm a bit baffled.
 
-# Who is actually getting disrupted?
-We've established that if the customer for a new hiring model is the company doing the hiring, they likely won't buy since this would end up costing them more than the current system.  But the industry that would get disrupted the most are the recruiting firms.  After all, the kind of filtering and matching I'm describing is exactly what they do, just less efficiently and accurately, and using methods that are rife with bias.  Staffing and recruiting firms comprise a [$218 _billion_ dollar industry in the US alone](https://www.statista.com/statistics/873648/us-staffing-industry-market-size/).  They don't want a solution like the one I described to exist either.
+# Who would actually get disrupted?
+We've established that if the customer for a new hiring model is the company doing the hiring, they likely won't buy since this would end up costing them more than the current system.  But the industry that would get disrupted the most are the recruiting firms.  After all, the kind of filtering and matching I'm describing is exactly what they do, just less efficiently and accurately, and using methods that are rife with bias.  Staffing and recruiting firms comprise a [$218 _billion_ dollar industry in the US alone](https://www.statista.com/statistics/873648/us-staffing-industry-market-size/).  They don't want a solution like the one I described to exist.  
+
+By the way, remember how we said earlier that leaving a role open for 60 days saves 16% of that role's salary?  Guess what recruiting companies charge to find a replacement: it starts at around 16%...  So if your firm uses staffing companies and has a curiously static time to fill you might have just found out why.
 
 # Change is happening, but it won't make things better
 I am already seeing posts on social media claiming that they were subjected to a screening call by an AI based voice system.  There are AI tools that help [applicants speed up the application process](https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk), creating customized versions of their resume's and writing cover letters for each job it applies to.  Applicant Tracking Systems are going to continue to adopt better and better AI models to hopefully improve how they filter candidates, but those are still based on a resume and cover letter that do not capture the key filtering points that matter most.  
