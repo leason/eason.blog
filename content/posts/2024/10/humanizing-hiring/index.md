@@ -3,7 +3,7 @@ title: "Humanizing Hiring"
 date: 2024-10-17T11:00:00-04:00
 description: "What is it like to search for a job or hire someone today, and why on earth are we tolerating this mess?  Why is it so hard to fix the job seeking and hiring process?  Plus you get to play with another fun calculator."
 displayInMenu: false
-featuredImage: "/posts/2024/10/humanizing-hiring/claw-hiring.webp"
+featuredImage: "/posts/2024/10/humanizing-hiring/robot-claw-machine.png"
 featuredImageDescription: ""
 categories: ["leadership","pandemic lessons","philosophy"]
 draft: false
