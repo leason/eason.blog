@@ -10,5 +10,7 @@ googleAnalytics = "G-2N3C69L9GL"
   homeimg = "/images/footer-hex.png"
   twitterHandle = "leejeason"
   linkedInName = "leejeason"
+  blueSkyHandle = "lee-eason.bsky.social"
   shareOnLinkedIn = true
   shareOnTwitter = true
+  shareOnBlueSky = true
