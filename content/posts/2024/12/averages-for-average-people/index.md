@@ -1,7 +1,7 @@
 ---
 title: "Stop relying on averages"
 date: 2024-12-06T11:00:00-04:00
-description: ""
+description: "Averages, while useful for monitoring overall system health, often misrepresent individual user experiences. To truly understand and improve user satisfaction, one must analyze data beyond averages."
 displayInMenu: false
 featuredImage: "/posts/2024/12/averages-for-average-people/averages-suck.png"
 featuredImageDescription: "Image of a standard normal distribution with an arrow pointing at the average and an arrow pointing at the right tail"
@@ -25,14 +25,14 @@ That's actually fine most of the time, because typically those monitoring tools 
 
 The problem occurs when someone looks at that graph and assumes that it means that _all_ users are experiencing that value as the time it took to load their page.  That is not true.  But in making that jump, the purpose for generalizing changed. They aren't trying to look at a complex system to find abrupt changes.  They wanted to know what people were _feeling_ when they used the system, and you can't use averages to learn that.
 
-# Shape matters
+# Shape matters - understanding distributions
 You have to remember that distributions can take lots of different shapes.  Is it wide and flat, or tall and skinny?  Evenly distributed or spiky?  Does it skew to the left or right?  Is there more than one peak?  How badly an average value represents user experience heavily depends on these things.  
 
 ![image](/posts/2024/12/averages-for-average-people/distributions.jpg)
 
 If these distributions represented buckets of pageload times, you can see how the average (the red line) does a very poor job of representing what your users are experiencing.  If all you tracked was the daily average pageload time, you wouldn't even know that the times were varying like this throughout the day.
 
-# Averages hide the things that piss off users
+# Averages hide things that piss off users
 People who abandon their shopping cart, stop reading a blog post halfway (not you, dear reader), or switch to a competitor are usually not having an average experience (hopefully).  If your goal is to reduce churn, looking at averages is a distraction.  
 
 If your dataset is large, like pageloads for a busy website, then outliers have less and less of an effect on the average.  In this way, the average value _hides_ important facts about your user's experience from you.
@@ -47,4 +47,4 @@ Another, even easier way to understand the extremes is to look at Percentiles.  
 
 In my experience an uptick in user complaints very often correlates to a change in the higher percentile values.  This is because in large datasets you can shift the P99 a lot and only affect the average a little bit.  Changes in P99 are also often a prelude to a failure in a downstream system because dependencies don't often tolerate large fluctuations in timing or success rate.
 
-Think about that a bit.  People don't call and complain when they have an average experience - that means that understanding complaints requires you to look at the non-average values.  The better you can get at measuring non-average values the better you will understand your users.
+The next time you’re analyzing user metrics, challenge yourself to go beyond averages. Use percentiles and distributions to uncover the hidden stories in your data and make better decisions for your users.
