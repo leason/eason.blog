@@ -3,8 +3,8 @@ title: "What makes a great Scrum Master?"
 date: 2024-12-17T11:00:00-04:00
 description: "I've heard more variation in opinion on how to qualify a great scrum master than any other role.  It's time to get my thoughts on this role down on paper."
 displayInMenu: false
-featuredImage: "/posts/2024/12/averages-for-average-people/averages-suck.png"
-featuredImageDescription: ""
+featuredImage: "/posts/2024/12/great-scrum-masters/retrospective.png"
+featuredImageDescription: "AI generated image of a group of people standing in front of a white board having a discussion, such as you would see at a sprint retrospective."
 categories: ["leadership","agile"]
 draft: false
 ---
