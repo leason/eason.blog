@@ -6,7 +6,7 @@ displayInMenu: false
 featuredImage: "/posts/2025/03/fly-the-plane/cessna.jpg"
 featuredImageDescription: "Cessna 182RG airplane"
 categories: ["philosophy","leadership"]
-draft: true
+draft: false
 ---
 "Pack up your shit, and get the hell out of my classroom!"
 
