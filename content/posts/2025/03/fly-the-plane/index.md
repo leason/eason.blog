@@ -1,6 +1,6 @@
 ---
 title: "Fly the Plane"
-date: 2025-03-14T11:00:00-04:00
+date: 2025-03-15T11:00:00-04:00
 description: "When the proverbial crap hits the fan, don't take your hands off the controls."
 displayInMenu: false
 featuredImage: "/posts/2025/03/fly-the-plane/cessna.jpg"
@@ -22,7 +22,7 @@ Fly the plane, he'd remind us.
 
 What that meant was that no matter what was going on, never forget you are in the drivers seat with your hands on the controls.  Just because things start going wrong, you don't fall out of the sky.  You have to keep your wits about you and remember that what makes that plane fly is not the radio or the instruments.  Panicking in a situation like that could mean death for you and your passengers.
 
-As a leader, things go wrong all the time.  You can't prepare for all of them.  Layoffs, restructuring, some new innovation that makes your job or your company irrelevant.  Sometimes you have to recenter and remember the things you can control, and just fly the plane.
+There's a Dawes song that goes, "Things happen, that's all they ever do."  As a leader, things go wrong all the time.  Part of your job is to create an environment that balances prevention with progress, but you can't prepare for everything.  Layoffs, restructuring, some new innovation that makes your job or your company irrelevant.  Sometimes you have to recenter and remember the things you can control, and just fly the plane.
 
 
 P.S. I ran into my teacher many years later and finally had the opportunity to apologize for being such a little jerk to him.  He actually laughed and said I wasn't even close to the worst student he had to deal with during his career.  That didn't make me feel any better, but I am glad I got to see him again.
