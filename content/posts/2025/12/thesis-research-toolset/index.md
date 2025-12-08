@@ -6,7 +6,7 @@ displayInMenu: false
 featuredImage: "/posts/2025/12/thesis-research-toolset/ideasflowing.png"
 featuredImageDescription: ""
 categories: ["ai"]
-draft: true
+draft: false
 ---
 One of the most exciting, practical applications for LLMs came into focus for me during my graduate thesis project.  For context, I started working on a masters degree in Technology Management through ECU in the Fall of 2024.  I opted for the thesis track because I want to learn how to do proper research.  After learning about the high level methods involved, I chose a research question and started on my project in the Spring of 2025.  I'm planning to graduate Fall of 2026.
 
