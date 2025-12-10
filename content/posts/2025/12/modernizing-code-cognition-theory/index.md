@@ -3,7 +3,7 @@ title: "Modernizing Legacy Code: The Challenge of Forgetting"
 date: 2025-12-09T07:00:00-05:00
 description: "Organizations develop a shared memory space that morphs and changes over time, just like an individual's memories.  I discuss the theory and its implications on things like turnover and modernization projects.  I also demonstrate the theory using source code examples.  Finally, we ponder how LLMs might or might not change the fundamental problem."
 displayInMenu: false
-featuredImage: "/posts/2025/12/modernizing-code-cognition-theory/code-tablet.png"
+featuredImage: "/posts/2025/12/modernizing-code-cognition-theory/code-tablet-3.png"
 featuredImageDescription: "Ancient tablet depicting some legacy java software code being examined by an archeologist"
 categories: ["philosophy", "leadership", "ai"]
 draft: false
