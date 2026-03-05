@@ -1,6 +1,6 @@
 ---
 title: "Synthetic UX Testing with AI Agents"
-date: 2026-03-04T07:20:00-05:00
+date: 2026-03-04T20:00:00-05:00
 description: "Simulating users with AI agents gives you a way to get user feedback about your service.  What you end up learning could be much more valuable than what you expected to learn."
 displayInMenu: false
 featuredImage: "/posts/2026/03/synthetic-testing-with-ai/robot-researcher.png"
