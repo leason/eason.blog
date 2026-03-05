@@ -1,12 +1,12 @@
 ---
 title: "Synthetic UX Testing with AI Agents"
-date: 2026-03-04T07:00:00-05:00
+date: 2026-03-04T07:20:00-05:00
 description: "Simulating users with AI agents gives you a way to get user feedback about your service.  What you end up learning could be much more valuable than what you expected to learn."
 displayInMenu: false
 featuredImage: "/posts/2026/03/synthetic-testing-with-ai/robot-researcher.png"
 featuredImageDescription: ""
 categories: ["philosophy", "ai"]
-draft: true
+draft: false
 ---
 # User feedback is important, but hard to get
 Have you ever participated in a UX feedback session?  There's different ways to do it, but usually a study subject operates a user interface themselves while a researcher gives minimal prompts and instructions, then asks questions.  For example, a researcher might ask the subject, "If you were going to create a new email template, where would click?"  Or, "If you wanted to save your work, which icon do you think would do that?"
