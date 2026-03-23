@@ -5,7 +5,7 @@ description: "Combining in-app feedback with Claude Code skills can increase use
 displayInMenu: false
 featuredImage: "/posts/2026/03/supercharging-feedback/robot-orchestrator.png"
 featuredImageDescription: ""
-categories: ["philosophy", "ai"]
+categories: ["agile","ai"]
 draft: false
 ---
 I've been building [ClassComposer.app](https://classcomposer.app) the past few weeks in my spare time.  It's a tool for fitness instructors that helps them manage their schedule, plan their classes and music playlists, and get feedback from their students.  Originally I built this for my wife who's a yoga teacher, but then decided it could be a good context to get my hands dirty and learn more about what tools like Claude Code are changing for developers and startups.
