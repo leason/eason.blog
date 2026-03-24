@@ -1,3 +1,6 @@
 [submodule "themes/aether"]
   path = themes/aether
   url = https://github.com/leason/aether.git
+[submodule "themes/study"]
+	path = themes/study
+	url = git@github.com:leason/hugo-theme-study.git
