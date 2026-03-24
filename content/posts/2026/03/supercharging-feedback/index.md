@@ -1,5 +1,5 @@
 ---
-title: "Supercharing the User Feedback Cycle"
+title: "Supercharging the User Feedback Cycle"
 date: 2026-03-22T20:00:00-05:00
 description: "Combining in-app feedback with Claude Code skills can increase user engagement and help you build what your users need."
 displayInMenu: false
