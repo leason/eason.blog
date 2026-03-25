@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Lee Eason's personal blog"
 theme = "study"
 googleAnalytics = "G-2N3C69L9GL"
+enableRobotsTxt = true
 
 [params]
   brand = "Eason Development"
