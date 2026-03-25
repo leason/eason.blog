@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "hugo --gc --minify && curl -s 'https://www.google.com/ping?sitemap=https://eason.blog/sitemap.xml' > /dev/null"
 
 [context.production.environment]
 HUGO_VERSION = "0.125.4"
