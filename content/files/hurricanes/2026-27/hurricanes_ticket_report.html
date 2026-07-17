@@ -1,0 +1,408 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hurricanes 2026-27 Season Ticket Split</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#15181C;--muted:#5A636B;--ice:#EEF2F5;--line:#DBE2E7;--red:#C8102E;--namew:96px;}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#F7F9FB,#EEF2F5);color:var(--ink);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:40px 24px 72px}
+.masthead{border-bottom:3px solid var(--ink);padding-bottom:20px;margin-bottom:8px}
+.eyebrow{font-family:'Barlow Condensed';letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--red);font-size:14px}
+h1{font-family:'Barlow Condensed';font-weight:700;font-size:clamp(34px,6vw,62px);line-height:.95;margin:6px 0 10px;letter-spacing:-.01em}
+.sub{font-size:16px;color:var(--muted);max-width:640px}
+.statline{display:flex;flex-wrap:wrap;gap:26px;margin-top:18px;font-family:'Barlow Condensed';font-weight:600}
+.statline .s{display:flex;flex-direction:column;line-height:1}
+.statline .s b{font-size:30px}.statline .s span{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-family:Inter;font-weight:600;margin-top:5px}
+.section-label{font-family:'Barlow Condensed';text-transform:uppercase;letter-spacing:.14em;font-weight:600;font-size:15px;color:var(--ink);margin:44px 0 14px;display:flex;align-items:center;gap:10px}
+.section-label::before{content:"";width:22px;height:3px;background:var(--red)}
+.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.card{background:#fff;border:1px solid var(--line);border-top:4px solid var(--c);border-radius:10px;padding:16px 16px 14px}
+.card-top{display:flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.card-name{font-family:'Barlow Condensed';font-weight:700;font-size:20px}
+.card-big{font-family:'Barlow Condensed';font-weight:700;font-size:52px;line-height:1;margin:8px 0 2px}
+.card-unit{font-family:Inter;font-size:12px;font-weight:600;color:var(--muted);margin-left:7px;text-transform:uppercase;letter-spacing:.08em}
+.card-split{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:10px;padding-top:9px}
+.card-split b{color:var(--ink)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.chart{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px 20px 22px}
+.chart-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
+.chart-head h3{font-family:'Barlow Condensed';font-weight:700;font-size:19px;margin:0}
+.chart-sub{font-size:12px;color:var(--muted)}
+.bars{position:relative}
+.bar-row{display:flex;align-items:center;gap:12px;margin:9px 0}
+.bar-name{width:var(--namew);font-size:13.5px;font-weight:600;flex:none;text-align:right;color:var(--ink)}
+.bar-track{flex:1;background:var(--ice);border-radius:6px;height:26px;overflow:hidden}
+.bar-fill{height:100%;border-radius:6px;display:flex;align-items:center;justify-content:flex-end;min-width:26px;transition:width .9s cubic-bezier(.2,.7,.2,1)}
+.bar-val{color:#fff;font-weight:700;font-size:13px;padding-right:9px;font-family:'Barlow Condensed'}
+.avg-line{position:absolute;top:-4px;bottom:-2px;width:0;border-left:2px dashed #9aa3ab;z-index:3}
+.avg-line span{position:absolute;top:-16px;transform:translateX(-50%);font-size:10.5px;color:var(--muted);white-space:nowrap;font-weight:600}
+.timeline{width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:10px;padding:6px}
+.timeline .grid{stroke:#EDF1F4;stroke-width:1}
+.timeline .lane{stroke:#F1F4F6;stroke-width:14;stroke-linecap:round}
+.timeline .mlab{font-family:'Barlow Condensed';font-weight:600;font-size:13px;fill:#8b949c;letter-spacing:.05em}
+.timeline .fname{font-family:'Barlow Condensed';font-weight:700;font-size:15px}
+.legend{display:flex;gap:20px;align-items:center;margin-top:10px;font-size:12.5px;color:var(--muted)}
+.legend i{display:inline-block;width:13px;height:13px;border-radius:50%;vertical-align:-2px;margin-right:6px}
+.heatmap{display:grid;gap:4px}
+.hm-cell{height:34px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;border-radius:5px;color:#fff}
+.hm-h,.hm-corner{background:transparent;color:var(--muted);font-family:'Barlow Condensed';font-size:13px;height:24px}
+.hm-name{background:transparent!important;justify-content:flex-start;font-family:'Barlow Condensed';font-weight:700;font-size:16px}
+.hm-z{background:#F1F4F6;color:#C4CCD2}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13.5px}
+thead th{background:var(--ink);color:#fff;font-family:'Barlow Condensed';font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:12.5px;text-align:left;padding:11px 13px}
+tbody td{padding:9px 13px;border-bottom:1px solid #EEF2F5}
+tbody tr:hover{background:#FAFCFD}
+.mono{font-family:'JetBrains Mono',monospace;font-size:12.5px;color:#39424a}
+.chip{color:#fff;font-weight:600;font-size:12px;padding:3px 10px;border-radius:20px;font-family:'Barlow Condensed';letter-spacing:.03em}
+.we{background:#FBE3E7;color:#C8102E;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.06em}
+.wd{background:#EEF2F5;color:#78828b;font-size:10.5px;font-weight:600;padding:2px 7px;border-radius:4px;letter-spacing:.04em}
+.calgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.cal-btn{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:14px 15px;text-decoration:none;color:var(--ink);transition:transform .15s ease,box-shadow .15s ease}
+.cal-btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(20,23,26,.09);border-color:var(--c)}
+.cal-ico{font-size:22px;line-height:1}
+.cal-txt{display:flex;flex-direction:column;flex:1;min-width:0}
+.cal-txt b{font-family:'Barlow Condensed';font-weight:700;font-size:18px;line-height:1}
+.cal-txt small{color:var(--muted);font-size:11.5px;margin-top:3px}
+.cal-arrow{color:var(--c);font-weight:700;font-size:17px}
+.note{background:#fff;border:1px solid var(--line);border-left:4px solid var(--red);border-radius:8px;padding:16px 20px;margin-top:16px;font-size:13.5px;color:#39424a;line-height:1.55}
+.note b{color:var(--ink)}
+.foot{margin-top:40px;font-size:12px;color:#9aa3ab;text-align:center}
+@media(max-width:820px){.cards{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
+</style></head><body><div class="wrap">
+
+<div class="masthead">
+  <div class="eyebrow">Carolina Hurricanes · 2026–27 Regular Season</div>
+  <h1>The Season Ticket Split</h1>
+  <div class="sub">Every home game divided among the five families — balanced on totals, on weekends, and spread evenly from opening night to April.</div>
+  <div class="statline">
+    <div class="s"><b>41</b><span>Home games</span></div>
+    <div class="s"><b>5</b><span>Families</span></div>
+    <div class="s"><b>23</b><span>Weekend games</span></div>
+    <div class="s"><b>0</b><span>Same-week doubles</span></div>
+    <div class="s"><b>8–9</b><span>Games each</span></div>
+  </div>
+</div>
+
+<div class="section-label">The split at a glance</div>
+<div class="cards"><div class="card" style="--c:#C8102E">
+          <div class="card-top"><span class="dot"></span><span class="card-name">Eason</span></div>
+          <div class="card-big">9<span class="card-unit">games</span></div>
+          <div class="card-split"><span><b>4</b> weekend</span><span><b>5</b> weekday</span></div>
+        </div><div class="card" style="--c:#1F6FB2">
+          <div class="card-top"><span class="dot"></span><span class="card-name">Swanson</span></div>
+          <div class="card-big">8<span class="card-unit">games</span></div>
+          <div class="card-split"><span><b>5</b> weekend</span><span><b>3</b> weekday</span></div>
+        </div><div class="card" style="--c:#2E9E7B">
+          <div class="card-top"><span class="dot"></span><span class="card-name">Poplak</span></div>
+          <div class="card-big">8<span class="card-unit">games</span></div>
+          <div class="card-split"><span><b>5</b> weekend</span><span><b>3</b> weekday</span></div>
+        </div><div class="card" style="--c:#E0912F">
+          <div class="card-top"><span class="dot"></span><span class="card-name">Shroyer</span></div>
+          <div class="card-big">8<span class="card-unit">games</span></div>
+          <div class="card-split"><span><b>5</b> weekend</span><span><b>3</b> weekday</span></div>
+        </div><div class="card" style="--c:#7A5AA6">
+          <div class="card-top"><span class="dot"></span><span class="card-name">Rabinowitz</span></div>
+          <div class="card-big">8<span class="card-unit">games</span></div>
+          <div class="card-split"><span><b>4</b> weekend</span><span><b>4</b> weekday</span></div>
+        </div></div>
+<div class="note">With 41 games and 5 families, a perfectly equal split isn't possible — one family gets a 9th game while the rest get 8. This season that's <b>Eason</b>, and it's offset on purpose: their extra game is a <b>weekday</b> game, and they hold the <b>fewest weekend games (4)</b> of anyone. Every family lands within one game of every other on totals, weekend games, and weekday games. The 9th game can rotate to a different family each season.</div>
+
+<div class="section-label">Add your games to your calendar</div>
+<div class="calgrid"><a class="cal-btn" style="--c:#C8102E" href="data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL0NhbmVzIFNlYXNvbi1UaWNrZXQgU3BsaXQvL0VODQpDQUxTQ0FMRTpHUkVHT1JJQU4NCk1FVEhPRDpQVUJMSVNIDQpYLVdSLUNBTE5BTUU6Q2FuZXMgMjAyNi0yNyDigJQgRWFzb24NClgtV1ItVElNRVpPTkU6QW1lcmljYS9OZXdfWW9yaw0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNi0wOS0yOS1GbG9yaWRhLUVhc29uQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNjA5MjlUMjEwMDAwWg0KRFRFTkQ6MjAyNjA5MjlUMjMzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIEZsb3JpZGENCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgRWFzb24gZmFtaWx5LiBUdWUgNTowMCBQTSBFVA0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNi0xMC0yNy1Cb3N0b24tRWFzb25AY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI2MTAyOFQwMDAwMDBaDQpEVEVORDoyMDI2MTAyOFQwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgQm9zdG9uDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIEVhc29uIGZhbWlseS4gVHVlIDg6MDAgUE0gRVQNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjYtMTEtMjEtRWRtb250b24tRWFzb25AY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI2MTEyMVQxODAwMDBaDQpEVEVORDoyMDI2MTEyMVQyMDMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgRWRtb250b24NCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgRWFzb24gZmFtaWx5LiBTYXQgMTowMCBQTSBFVCANCiAod2Vla2VuZCkNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjYtMTItMDgtTllSYW5nZXJzLUVhc29uQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNjEyMDlUMDAwMDAwWg0KRFRFTkQ6MjAyNjEyMDlUMDIzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIE5ZIFJhbmdlcnMNCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgRWFzb24gZmFtaWx5LiBUdWUgNzowMCBQTSBFVA0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNy0wMS0wMi1OYXNodmlsbGUtRWFzb25AY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI3MDEwM1QwMDAwMDBaDQpEVEVORDoyMDI3MDEwM1QwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgTmFzaHZpbGxlDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIEVhc29uIGZhbWlseS4gU2F0IDc6MDAgUE0gRVQgDQogKHdlZWtlbmQpDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI3LTAxLTI4LU5ZSXNsYW5kZXJzLUVhc29uQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNzAxMjlUMDAwMDAwWg0KRFRFTkQ6MjAyNzAxMjlUMDIzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIE5ZIElzbGFuZGVycw0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBFYXNvbiBmYW1pbHkuIFRodSA3OjAwIFBNIEVUDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI3LTAyLTE5LURldHJvaXQtRWFzb25AY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI3MDIyMFQwMDAwMDBaDQpEVEVORDoyMDI3MDIyMFQwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgRGV0cm9pdA0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBFYXNvbiBmYW1pbHkuIEZyaSA3OjAwIFBNIEVUIA0KICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNy0wMy0xMy1OZXdKZXJzZXktRWFzb25AY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI3MDMxNFQwMDAwMDBaDQpEVEVORDoyMDI3MDMxNFQwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgTmV3IEplcnNleQ0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBFYXNvbiBmYW1pbHkuIFNhdCA3OjAwIFBNIEVUIA0KICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNy0wNC0wNy1PdHRhd2EtRWFzb25AY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI3MDQwN1QyMzAwMDBaDQpEVEVORDoyMDI3MDQwOFQwMTMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgT3R0YXdhDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIEVhc29uIGZhbWlseS4gV2VkIDc6MDAgUE0gRVQNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==" download="hurricanes_Eason.ics">
+          <span class="cal-ico" aria-hidden="true">&#128197;</span>
+          <span class="cal-txt"><b>Eason</b><small>9 games · add to calendar</small></span>
+          <span class="cal-arrow">&#8595;</span>
+        </a><a class="cal-btn" style="--c:#1F6FB2" href="data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL0NhbmVzIFNlYXNvbi1UaWNrZXQgU3BsaXQvL0VODQpDQUxTQ0FMRTpHUkVHT1JJQU4NCk1FVEhPRDpQVUJMSVNIDQpYLVdSLUNBTE5BTUU6Q2FuZXMgMjAyNi0yNyDigJQgU3dhbnNvbg0KWC1XUi1USU1FWk9ORTpBbWVyaWNhL05ld19Zb3JrDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI2LTEwLTI5LUNvbHVtYnVzLVN3YW5zb25AY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI2MTAyOVQyMzAwMDBaDQpEVEVORDoyMDI2MTAzMFQwMTMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgQ29sdW1idXMNCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgU3dhbnNvbiBmYW1pbHkuIFRodSA3OjAwIFBNIEUNCiBUDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI2LTEyLTAzLUNvbHVtYnVzLVN3YW5zb25AY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI2MTIwNFQwMDAwMDBaDQpEVEVORDoyMDI2MTIwNFQwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgQ29sdW1idXMNCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgU3dhbnNvbiBmYW1pbHkuIFRodSA3OjAwIFBNIEUNCiBUDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI2LTEyLTI2LVBpdHRzYnVyZ2gtU3dhbnNvbkBjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjYxMjI3VDAwMDAwMFoNCkRURU5EOjIwMjYxMjI3VDAyMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBQaXR0c2J1cmdoDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIFN3YW5zb24gZmFtaWx5LiBTYXQgNzowMCBQTSBFDQogVCAod2Vla2VuZCkNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjctMDEtMDctUGl0dHNidXJnaC1Td2Fuc29uQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNzAxMDhUMDAwMDAwWg0KRFRFTkQ6MjAyNzAxMDhUMDIzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIFBpdHRzYnVyZ2gNCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgU3dhbnNvbiBmYW1pbHkuIFRodSA3OjAwIFBNIEUNCiBUDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI3LTAxLTMwLUxvc0FuZ2VsZXMtU3dhbnNvbkBjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjcwMTMxVDAwMDAwMFoNCkRURU5EOjIwMjcwMTMxVDAyMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBMb3MgQW5nZWxlcw0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBTd2Fuc29uIGZhbWlseS4gU2F0IDc6MDAgUE0gRQ0KIFQgKHdlZWtlbmQpDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI3LTAyLTIxLU5ZUmFuZ2Vycy1Td2Fuc29uQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNzAyMjFUMTgwMDAwWg0KRFRFTkQ6MjAyNzAyMjFUMjAzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIE5ZIFJhbmdlcnMNCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgU3dhbnNvbiBmYW1pbHkuIFN1biAxOjAwIFBNIEUNCiBUICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNy0wMy0xMi1DYWxnYXJ5LVN3YW5zb25AY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI3MDMxM1QwMDAwMDBaDQpEVEVORDoyMDI3MDMxM1QwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgQ2FsZ2FyeQ0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBTd2Fuc29uIGZhbWlseS4gRnJpIDc6MDAgUE0gRQ0KIFQgKHdlZWtlbmQpDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI3LTA0LTAzLU5ld0plcnNleS1Td2Fuc29uQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNzA0MDNUMjEwMDAwWg0KRFRFTkQ6MjAyNzA0MDNUMjMzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIE5ldyBKZXJzZXkNCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgU3dhbnNvbiBmYW1pbHkuIFNhdCA1OjAwIFBNIEUNCiBUICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K" download="hurricanes_Swanson.ics">
+          <span class="cal-ico" aria-hidden="true">&#128197;</span>
+          <span class="cal-txt"><b>Swanson</b><small>8 games · add to calendar</small></span>
+          <span class="cal-arrow">&#8595;</span>
+        </a><a class="cal-btn" style="--c:#2E9E7B" href="data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL0NhbmVzIFNlYXNvbi1UaWNrZXQgU3BsaXQvL0VODQpDQUxTQ0FMRTpHUkVHT1JJQU4NCk1FVEhPRDpQVUJMSVNIDQpYLVdSLUNBTE5BTUU6Q2FuZXMgMjAyNi0yNyDigJQgUG9wbGFrDQpYLVdSLVRJTUVaT05FOkFtZXJpY2EvTmV3X1lvcmsNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjYtMTAtMDgtVmFuY291dmVyLVBvcGxha0BjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjYxMDA4VDIzMDAwMFoNCkRURU5EOjIwMjYxMDA5VDAxMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBWYW5jb3V2ZXINCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgUG9wbGFrIGZhbWlseS4gVGh1IDc6MDAgUE0gRVQNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjYtMTEtMDEtV2lubmlwZWctUG9wbGFrQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNjExMDFUMTgwMDAwWg0KRFRFTkQ6MjAyNjExMDFUMjAzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIFdpbm5pcGVnDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIFBvcGxhayBmYW1pbHkuIFN1biAxOjAwIFBNIEVUDQogICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNi0xMS0xOS1Nb250cmVhbC1Qb3BsYWtAY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI2MTEyMFQwMDAwMDBaDQpEVEVORDoyMDI2MTEyMFQwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgTW9udHJlYWwNCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgUG9wbGFrIGZhbWlseS4gVGh1IDc6MDAgUE0gRVQNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjYtMTItMTMtQm9zdG9uLVBvcGxha0BjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjYxMjEzVDE4MDAwMFoNCkRURU5EOjIwMjYxMjEzVDIwMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBCb3N0b24NCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgUG9wbGFrIGZhbWlseS4gU3VuIDE6MDAgUE0gRVQNCiAgKHdlZWtlbmQpDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI3LTAxLTE1LVBoaWxhZGVscGhpYS1Qb3BsYWtAY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI3MDExNlQwMDAwMDBaDQpEVEVORDoyMDI3MDExNlQwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgUGhpbGFkZWxwaGlhDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIFBvcGxhayBmYW1pbHkuIEZyaSA3OjAwIFBNIEVUDQogICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNy0wMi0xMy1CdWZmYWxvLVBvcGxha0BjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjcwMjE0VDAwMDAwMFoNCkRURU5EOjIwMjcwMjE0VDAyMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBCdWZmYWxvDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIFBvcGxhayBmYW1pbHkuIFNhdCA3OjAwIFBNIEVUDQogICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNy0wMy0wNS1Ub3JvbnRvLVBvcGxha0BjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjcwMzA2VDAwMDAwMFoNCkRURU5EOjIwMjcwMzA2VDAyMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBUb3JvbnRvDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIFBvcGxhayBmYW1pbHkuIEZyaSA3OjAwIFBNIEVUDQogICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNy0wNC0wNS1QaGlsYWRlbHBoaWEtUG9wbGFrQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNzA0MDVUMTgwMDAwWg0KRFRFTkQ6MjAyNzA0MDVUMjAzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIFBoaWxhZGVscGhpYQ0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBQb3BsYWsgZmFtaWx5LiBNb24gMjowMCBQTSBFVA0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K" download="hurricanes_Poplak.ics">
+          <span class="cal-ico" aria-hidden="true">&#128197;</span>
+          <span class="cal-txt"><b>Poplak</b><small>8 games · add to calendar</small></span>
+          <span class="cal-arrow">&#8595;</span>
+        </a><a class="cal-btn" style="--c:#E0912F" href="data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL0NhbmVzIFNlYXNvbi1UaWNrZXQgU3BsaXQvL0VODQpDQUxTQ0FMRTpHUkVHT1JJQU4NCk1FVEhPRDpQVUJMSVNIDQpYLVdSLUNBTE5BTUU6Q2FuZXMgMjAyNi0yNyDigJQgU2hyb3llcg0KWC1XUi1USU1FWk9ORTpBbWVyaWNhL05ld19Zb3JrDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI2LTEwLTAyLVdhc2hpbmd0b24tU2hyb3llckBjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjYxMDAyVDIzMDAwMFoNCkRURU5EOjIwMjYxMDAzVDAxMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBXYXNoaW5ndG9uDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIFNocm95ZXIgZmFtaWx5LiBGcmkgNzowMCBQTSBFDQogVCAod2Vla2VuZCkNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjYtMTAtMTMtV2FzaGluZ3Rvbi1TaHJveWVyQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNjEwMTNUMjI0NTAwWg0KRFRFTkQ6MjAyNjEwMTRUMDExNTAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIFdhc2hpbmd0b24NCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgU2hyb3llciBmYW1pbHkuIFR1ZSA2OjQ1IFBNIEUNCiBUDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI2LTExLTA3LUNoaWNhZ28tU2hyb3llckBjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjYxMTA4VDAxMDAwMFoNCkRURU5EOjIwMjYxMTA4VDAzMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBDaGljYWdvDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIFNocm95ZXIgZmFtaWx5LiBTYXQgODowMCBQTSBFDQogVCAod2Vla2VuZCkNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjYtMTItMDUtVG9yb250by1TaHJveWVyQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNjEyMDZUMDAwMDAwWg0KRFRFTkQ6MjAyNjEyMDZUMDIzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIFRvcm9udG8NCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgU2hyb3llciBmYW1pbHkuIFNhdCA3OjAwIFBNIEUNCiBUICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNi0xMi0yOC1UYW1wYUJheS1TaHJveWVyQGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNjEyMjlUMDAwMDAwWg0KRFRFTkQ6MjAyNjEyMjlUMDIzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIFRhbXBhIEJheQ0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBTaHJveWVyIGZhbWlseS4gTW9uIDc6MDAgUE0gRQ0KIFQNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjctMDEtMTctVmVnYXMtU2hyb3llckBjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjcwMTE3VDIzMDAwMFoNCkRURU5EOjIwMjcwMTE4VDAxMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBWZWdhcw0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBTaHJveWVyIGZhbWlseS4gU3VuIDY6MDAgUE0gRQ0KIFQgKHdlZWtlbmQpDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI3LTAyLTA5LUNvbG9yYWRvLVNocm95ZXJAY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI3MDIxMFQwMDAwMDBaDQpEVEVORDoyMDI3MDIxMFQwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgQ29sb3JhZG8NCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgU2hyb3llciBmYW1pbHkuIFR1ZSA3OjAwIFBNIEUNCiBUDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI3LTAyLTI3LVRhbXBhQmF5LVNocm95ZXJAY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI3MDIyOFQwMDAwMDBaDQpEVEVORDoyMDI3MDIyOFQwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgVGFtcGEgQmF5DQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIFNocm95ZXIgZmFtaWx5LiBTYXQgNzowMCBQTSBFDQogVCAod2Vla2VuZCkNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==" download="hurricanes_Shroyer.ics">
+          <span class="cal-ico" aria-hidden="true">&#128197;</span>
+          <span class="cal-txt"><b>Shroyer</b><small>8 games · add to calendar</small></span>
+          <span class="cal-arrow">&#8595;</span>
+        </a><a class="cal-btn" style="--c:#7A5AA6" href="data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL0NhbmVzIFNlYXNvbi1UaWNrZXQgU3BsaXQvL0VODQpDQUxTQ0FMRTpHUkVHT1JJQU4NCk1FVEhPRDpQVUJMSVNIDQpYLVdSLUNBTE5BTUU6Q2FuZXMgMjAyNi0yNyDigJQgUmFiaW5vd2l0eg0KWC1XUi1USU1FWk9ORTpBbWVyaWNhL05ld19Zb3JrDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI2LTExLTI4LU90dGF3YS1SYWJpbm93aXR6QGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNjExMjlUMDAwMDAwWg0KRFRFTkQ6MjAyNjExMjlUMDIzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIE90dGF3YQ0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBSYWJpbm93aXR6IGZhbWlseS4gU2F0IDc6MDAgUA0KIE0gRVQgKHdlZWtlbmQpDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI2LTEyLTExLU5ZSXNsYW5kZXJzLVJhYmlub3dpdHpAY2FuZXMtc3BsaXQNCkRUU1RBTVA6MjAyNjA3MTdUMTEyMTQxWg0KRFRTVEFSVDoyMDI2MTIxMlQwMDAwMDBaDQpEVEVORDoyMDI2MTIxMlQwMjMwMDBaDQpTVU1NQVJZOkh1cnJpY2FuZXMgdnMgTlkgSXNsYW5kZXJzDQpMT0NBVElPTjpQTkMgQXJlbmFcLCAxNDAwIEVkd2FyZHMgTWlsbCBSZFwsIFJhbGVpZ2hcLCBOQyAyNzYwNw0KREVTQ1JJUFRJT046Q2Fyb2xpbmEgSHVycmljYW5lcyBob21lIGdhbWUg4oCUIFJhYmlub3dpdHogZmFtaWx5LiBGcmkgNzowMCBQDQogTSBFVCAod2Vla2VuZCkNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjctMDEtMDUtU3RMb3Vpcy1SYWJpbm93aXR6QGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNzAxMDZUMDAwMDAwWg0KRFRFTkQ6MjAyNzAxMDZUMDIzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIFN0LiBMb3Vpcw0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBSYWJpbm93aXR6IGZhbWlseS4gVHVlIDc6MDAgUA0KIE0gRVQNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjctMDEtMjMtQW5haGVpbS1SYWJpbm93aXR6QGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNzAxMjRUMDAwMDAwWg0KRFRFTkQ6MjAyNzAxMjRUMDIzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIEFuYWhlaW0NCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgUmFiaW5vd2l0eiBmYW1pbHkuIFNhdCA3OjAwIFANCiBNIEVUICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNy0wMi0xMS1NaW5uZXNvdGEtUmFiaW5vd2l0ekBjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjcwMjEyVDAwMzAwMFoNCkRURU5EOjIwMjcwMjEyVDAzMDAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBNaW5uZXNvdGENCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgUmFiaW5vd2l0eiBmYW1pbHkuIFRodSA3OjMwIFANCiBNIEVUDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpCRUdJTjpWRVZFTlQNClVJRDoyMDI3LTAyLTI1LVNhbkpvc2UtUmFiaW5vd2l0ekBjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjcwMjI2VDAwMDAwMFoNCkRURU5EOjIwMjcwMjI2VDAyMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBTYW4gSm9zZQ0KTE9DQVRJT046UE5DIEFyZW5hXCwgMTQwMCBFZHdhcmRzIE1pbGwgUmRcLCBSYWxlaWdoXCwgTkMgMjc2MDcNCkRFU0NSSVBUSU9OOkNhcm9saW5hIEh1cnJpY2FuZXMgaG9tZSBnYW1lIOKAlCBSYWJpbm93aXR6IGZhbWlseS4gVGh1IDc6MDAgUA0KIE0gRVQNClNUQVRVUzpDT05GSVJNRUQNCkVORDpWRVZFTlQNCkJFR0lOOlZFVkVOVA0KVUlEOjIwMjctMDMtMDctVXRhaC1SYWJpbm93aXR6QGNhbmVzLXNwbGl0DQpEVFNUQU1QOjIwMjYwNzE3VDExMjE0MVoNCkRUU1RBUlQ6MjAyNzAzMDdUMTgwMDAwWg0KRFRFTkQ6MjAyNzAzMDdUMjAzMDAwWg0KU1VNTUFSWTpIdXJyaWNhbmVzIHZzIFV0YWgNCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgUmFiaW5vd2l0eiBmYW1pbHkuIFN1biAxOjAwIFANCiBNIEVUICh3ZWVrZW5kKQ0KU1RBVFVTOkNPTkZJUk1FRA0KRU5EOlZFVkVOVA0KQkVHSU46VkVWRU5UDQpVSUQ6MjAyNy0wMy0yNS1EYWxsYXMtUmFiaW5vd2l0ekBjYW5lcy1zcGxpdA0KRFRTVEFNUDoyMDI2MDcxN1QxMTIxNDFaDQpEVFNUQVJUOjIwMjcwMzI1VDIzMDAwMFoNCkRURU5EOjIwMjcwMzI2VDAxMzAwMFoNClNVTU1BUlk6SHVycmljYW5lcyB2cyBEYWxsYXMNCkxPQ0FUSU9OOlBOQyBBcmVuYVwsIDE0MDAgRWR3YXJkcyBNaWxsIFJkXCwgUmFsZWlnaFwsIE5DIDI3NjA3DQpERVNDUklQVElPTjpDYXJvbGluYSBIdXJyaWNhbmVzIGhvbWUgZ2FtZSDigJQgUmFiaW5vd2l0eiBmYW1pbHkuIFRodSA3OjAwIFANCiBNIEVUDQpTVEFUVVM6Q09ORklSTUVEDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=" download="hurricanes_Rabinowitz.ics">
+          <span class="cal-ico" aria-hidden="true">&#128197;</span>
+          <span class="cal-txt"><b>Rabinowitz</b><small>8 games · add to calendar</small></span>
+          <span class="cal-arrow">&#8595;</span>
+        </a></div>
+<div class="note">Each button downloads that family's home games as a calendar file (<b>.ics</b>) — open it to add all your nights to Apple Calendar, Google Calendar, or Outlook at once. Times are Eastern; each event is set at PNC Arena with a 2½-hour hold.</div>
+
+<div class="section-label">Balanced totals &amp; weekends</div>
+<div class="grid2">
+  <div class="chart">
+      <div class="chart-head"><h3>Total games per family</h3><span class="chart-sub">target 8–9 each</span></div>
+      <div class="bars">
+        <div class="avg-line" style="left:calc(var(--namew) + 12px + (100% - var(--namew) - 12px) * 0.9111)"><span>avg 8.2</span></div>
+        <div class="bar-row">
+          <div class="bar-name">Eason</div>
+          <div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#C8102E"><span class="bar-val">9</span></div></div>
+        </div><div class="bar-row">
+          <div class="bar-name">Swanson</div>
+          <div class="bar-track"><div class="bar-fill" style="width:88.9%;background:#1F6FB2"><span class="bar-val">8</span></div></div>
+        </div><div class="bar-row">
+          <div class="bar-name">Poplak</div>
+          <div class="bar-track"><div class="bar-fill" style="width:88.9%;background:#2E9E7B"><span class="bar-val">8</span></div></div>
+        </div><div class="bar-row">
+          <div class="bar-name">Shroyer</div>
+          <div class="bar-track"><div class="bar-fill" style="width:88.9%;background:#E0912F"><span class="bar-val">8</span></div></div>
+        </div><div class="bar-row">
+          <div class="bar-name">Rabinowitz</div>
+          <div class="bar-track"><div class="bar-fill" style="width:88.9%;background:#7A5AA6"><span class="bar-val">8</span></div></div>
+        </div>
+      </div>
+    </div>
+  <div class="chart">
+      <div class="chart-head"><h3>Weekend games (Fri–Sun) per family</h3><span class="chart-sub">the games everyone wants</span></div>
+      <div class="bars">
+        <div class="avg-line" style="left:calc(var(--namew) + 12px + (100% - var(--namew) - 12px) * 0.9200)"><span>avg 4.6</span></div>
+        <div class="bar-row">
+          <div class="bar-name">Eason</div>
+          <div class="bar-track"><div class="bar-fill" style="width:80.0%;background:#C8102E"><span class="bar-val">4</span></div></div>
+        </div><div class="bar-row">
+          <div class="bar-name">Swanson</div>
+          <div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#1F6FB2"><span class="bar-val">5</span></div></div>
+        </div><div class="bar-row">
+          <div class="bar-name">Poplak</div>
+          <div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#2E9E7B"><span class="bar-val">5</span></div></div>
+        </div><div class="bar-row">
+          <div class="bar-name">Shroyer</div>
+          <div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#E0912F"><span class="bar-val">5</span></div></div>
+        </div><div class="bar-row">
+          <div class="bar-name">Rabinowitz</div>
+          <div class="bar-track"><div class="bar-fill" style="width:80.0%;background:#7A5AA6"><span class="bar-val">4</span></div></div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="section-label">Spread across the whole season</div>
+<svg viewBox="0 0 1040 300" class="timeline" role="img" aria-label="Season timeline of each family's games">
+      <line x1="96.0" y1="34" x2="96.0" y2="272" class="grid"/><line x1="105.7" y1="34" x2="105.7" y2="272" class="grid"/><line x1="255.8" y1="34" x2="255.8" y2="272" class="grid"/><line x1="401.1" y1="34" x2="401.1" y2="272" class="grid"/><line x1="551.2" y1="34" x2="551.2" y2="272" class="grid"/><line x1="701.3" y1="34" x2="701.3" y2="272" class="grid"/><line x1="836.8" y1="34" x2="836.8" y2="272" class="grid"/><line x1="986.9" y1="34" x2="986.9" y2="272" class="grid"/><text x="100.0" y="28" class="mlab">Sep</text><text x="109.7" y="28" class="mlab">Oct</text><text x="259.8" y="28" class="mlab">Nov</text><text x="405.1" y="28" class="mlab">Dec</text><text x="555.2" y="28" class="mlab">Jan</text><text x="705.3" y="28" class="mlab">Feb</text><text x="840.8" y="28" class="mlab">Mar</text><text x="990.9" y="28" class="mlab">Apr</text><line x1="96" y1="63.2" x2="1016" y2="63.2" class="lane"/><text x="84" y="67.2" class="fname" text-anchor="end" fill="#C8102E">Eason</text><circle cx="96.0" cy="63.2" r="6" fill="white" stroke="#C8102E" stroke-width="2.2"><title>2026-09-29 Tue vs Florida</title></circle><circle cx="231.6" cy="63.2" r="6" fill="white" stroke="#C8102E" stroke-width="2.2"><title>2026-10-27 Tue vs Boston</title></circle><circle cx="352.6" cy="63.2" r="6.5" fill="#C8102E"><title>2026-11-21 Sat vs Edmonton (weekend)</title></circle><circle cx="434.9" cy="63.2" r="6" fill="white" stroke="#C8102E" stroke-width="2.2"><title>2026-12-08 Tue vs NY Rangers</title></circle><circle cx="556.0" cy="63.2" r="6.5" fill="#C8102E"><title>2027-01-02 Sat vs Nashville (weekend)</title></circle><circle cx="681.9" cy="63.2" r="6" fill="white" stroke="#C8102E" stroke-width="2.2"><title>2027-01-28 Thu vs NY Islanders</title></circle><circle cx="788.4" cy="63.2" r="6.5" fill="#C8102E"><title>2027-02-19 Fri vs Detroit (weekend)</title></circle><circle cx="894.9" cy="63.2" r="6.5" fill="#C8102E"><title>2027-03-13 Sat vs New Jersey (weekend)</title></circle><circle cx="1016.0" cy="63.2" r="6" fill="white" stroke="#C8102E" stroke-width="2.2"><title>2027-04-07 Wed vs Ottawa</title></circle><line x1="96" y1="109.6" x2="1016" y2="109.6" class="lane"/><text x="84" y="113.6" class="fname" text-anchor="end" fill="#1F6FB2">Swanson</text><circle cx="241.3" cy="109.6" r="6" fill="white" stroke="#1F6FB2" stroke-width="2.2"><title>2026-10-29 Thu vs Columbus</title></circle><circle cx="410.7" cy="109.6" r="6" fill="white" stroke="#1F6FB2" stroke-width="2.2"><title>2026-12-03 Thu vs Columbus</title></circle><circle cx="522.1" cy="109.6" r="6.5" fill="#1F6FB2"><title>2026-12-26 Sat vs Pittsburgh (weekend)</title></circle><circle cx="580.2" cy="109.6" r="6" fill="white" stroke="#1F6FB2" stroke-width="2.2"><title>2027-01-07 Thu vs Pittsburgh</title></circle><circle cx="691.6" cy="109.6" r="6.5" fill="#1F6FB2"><title>2027-01-30 Sat vs Los Angeles (weekend)</title></circle><circle cx="798.1" cy="109.6" r="6.5" fill="#1F6FB2"><title>2027-02-21 Sun vs NY Rangers (weekend)</title></circle><circle cx="890.1" cy="109.6" r="6.5" fill="#1F6FB2"><title>2027-03-12 Fri vs Calgary (weekend)</title></circle><circle cx="996.6" cy="109.6" r="6.5" fill="#1F6FB2"><title>2027-04-03 Sat vs New Jersey (weekend)</title></circle><line x1="96" y1="156.0" x2="1016" y2="156.0" class="lane"/><text x="84" y="160.0" class="fname" text-anchor="end" fill="#2E9E7B">Poplak</text><circle cx="139.6" cy="156.0" r="6" fill="white" stroke="#2E9E7B" stroke-width="2.2"><title>2026-10-08 Thu vs Vancouver</title></circle><circle cx="255.8" cy="156.0" r="6.5" fill="#2E9E7B"><title>2026-11-01 Sun vs Winnipeg (weekend)</title></circle><circle cx="342.9" cy="156.0" r="6" fill="white" stroke="#2E9E7B" stroke-width="2.2"><title>2026-11-19 Thu vs Montreal</title></circle><circle cx="459.2" cy="156.0" r="6.5" fill="#2E9E7B"><title>2026-12-13 Sun vs Boston (weekend)</title></circle><circle cx="618.9" cy="156.0" r="6.5" fill="#2E9E7B"><title>2027-01-15 Fri vs Philadelphia (weekend)</title></circle><circle cx="759.4" cy="156.0" r="6.5" fill="#2E9E7B"><title>2027-02-13 Sat vs Buffalo (weekend)</title></circle><circle cx="856.2" cy="156.0" r="6.5" fill="#2E9E7B"><title>2027-03-05 Fri vs Toronto (weekend)</title></circle><circle cx="1006.3" cy="156.0" r="6" fill="white" stroke="#2E9E7B" stroke-width="2.2"><title>2027-04-05 Mon vs Philadelphia</title></circle><line x1="96" y1="202.4" x2="1016" y2="202.4" class="lane"/><text x="84" y="206.4" class="fname" text-anchor="end" fill="#E0912F">Shroyer</text><circle cx="110.5" cy="202.4" r="6.5" fill="#E0912F"><title>2026-10-02 Fri vs Washington (weekend)</title></circle><circle cx="163.8" cy="202.4" r="6" fill="white" stroke="#E0912F" stroke-width="2.2"><title>2026-10-13 Tue vs Washington</title></circle><circle cx="284.8" cy="202.4" r="6.5" fill="#E0912F"><title>2026-11-07 Sat vs Chicago (weekend)</title></circle><circle cx="420.4" cy="202.4" r="6.5" fill="#E0912F"><title>2026-12-05 Sat vs Toronto (weekend)</title></circle><circle cx="531.8" cy="202.4" r="6" fill="white" stroke="#E0912F" stroke-width="2.2"><title>2026-12-28 Mon vs Tampa Bay</title></circle><circle cx="628.6" cy="202.4" r="6.5" fill="#E0912F"><title>2027-01-17 Sun vs Vegas (weekend)</title></circle><circle cx="740.0" cy="202.4" r="6" fill="white" stroke="#E0912F" stroke-width="2.2"><title>2027-02-09 Tue vs Colorado</title></circle><circle cx="827.2" cy="202.4" r="6.5" fill="#E0912F"><title>2027-02-27 Sat vs Tampa Bay (weekend)</title></circle><line x1="96" y1="248.8" x2="1016" y2="248.8" class="lane"/><text x="84" y="252.8" class="fname" text-anchor="end" fill="#7A5AA6">Rabinowitz</text><circle cx="386.5" cy="248.8" r="6.5" fill="#7A5AA6"><title>2026-11-28 Sat vs Ottawa (weekend)</title></circle><circle cx="449.5" cy="248.8" r="6.5" fill="#7A5AA6"><title>2026-12-11 Fri vs NY Islanders (weekend)</title></circle><circle cx="570.5" cy="248.8" r="6" fill="white" stroke="#7A5AA6" stroke-width="2.2"><title>2027-01-05 Tue vs St. Louis</title></circle><circle cx="657.7" cy="248.8" r="6.5" fill="#7A5AA6"><title>2027-01-23 Sat vs Anaheim (weekend)</title></circle><circle cx="749.7" cy="248.8" r="6" fill="white" stroke="#7A5AA6" stroke-width="2.2"><title>2027-02-11 Thu vs Minnesota</title></circle><circle cx="817.5" cy="248.8" r="6" fill="white" stroke="#7A5AA6" stroke-width="2.2"><title>2027-02-25 Thu vs San Jose</title></circle><circle cx="865.9" cy="248.8" r="6.5" fill="#7A5AA6"><title>2027-03-07 Sun vs Utah (weekend)</title></circle><circle cx="953.1" cy="248.8" r="6" fill="white" stroke="#7A5AA6" stroke-width="2.2"><title>2027-03-25 Thu vs Dallas</title></circle>
+    </svg>
+<div class="legend"><span><i style="background:#8a9299"></i>Filled = weekend game</span><span><i style="background:#fff;border:2px solid #8a9299"></i>Outline = weekday game</span><span>Each dot is one game · hover for the matchup</span></div>
+
+<div class="section-label">Games per month</div>
+<div class="heatmap" style="grid-template-columns:120px repeat(8,1fr)"><div class="hm-cell hm-corner"></div><div class="hm-cell hm-h">Sep</div><div class="hm-cell hm-h">Oct</div><div class="hm-cell hm-h">Nov</div><div class="hm-cell hm-h">Dec</div><div class="hm-cell hm-h">Jan</div><div class="hm-cell hm-h">Feb</div><div class="hm-cell hm-h">Mar</div><div class="hm-cell hm-h">Apr</div><div class="hm-cell hm-name" style="color:#C8102E">Eason</div><div class="hm-cell" style="background:#C8102Ea3">1</div><div class="hm-cell" style="background:#C8102Ea3">1</div><div class="hm-cell" style="background:#C8102Ea3">1</div><div class="hm-cell" style="background:#C8102Ea3">1</div><div class="hm-cell" style="background:#C8102Eff">2</div><div class="hm-cell" style="background:#C8102Ea3">1</div><div class="hm-cell" style="background:#C8102Ea3">1</div><div class="hm-cell" style="background:#C8102Ea3">1</div><div class="hm-cell hm-name" style="color:#1F6FB2">Swanson</div><div class="hm-cell hm-z">·</div><div class="hm-cell" style="background:#1F6FB2a3">1</div><div class="hm-cell hm-z">·</div><div class="hm-cell" style="background:#1F6FB2ff">2</div><div class="hm-cell" style="background:#1F6FB2ff">2</div><div class="hm-cell" style="background:#1F6FB2a3">1</div><div class="hm-cell" style="background:#1F6FB2a3">1</div><div class="hm-cell" style="background:#1F6FB2a3">1</div><div class="hm-cell hm-name" style="color:#2E9E7B">Poplak</div><div class="hm-cell hm-z">·</div><div class="hm-cell" style="background:#2E9E7Ba3">1</div><div class="hm-cell" style="background:#2E9E7Bff">2</div><div class="hm-cell" style="background:#2E9E7Ba3">1</div><div class="hm-cell" style="background:#2E9E7Ba3">1</div><div class="hm-cell" style="background:#2E9E7Ba3">1</div><div class="hm-cell" style="background:#2E9E7Ba3">1</div><div class="hm-cell" style="background:#2E9E7Ba3">1</div><div class="hm-cell hm-name" style="color:#E0912F">Shroyer</div><div class="hm-cell hm-z">·</div><div class="hm-cell" style="background:#E0912Fff">2</div><div class="hm-cell" style="background:#E0912Fa3">1</div><div class="hm-cell" style="background:#E0912Fff">2</div><div class="hm-cell" style="background:#E0912Fa3">1</div><div class="hm-cell" style="background:#E0912Fff">2</div><div class="hm-cell hm-z">·</div><div class="hm-cell hm-z">·</div><div class="hm-cell hm-name" style="color:#7A5AA6">Rabinowitz</div><div class="hm-cell hm-z">·</div><div class="hm-cell hm-z">·</div><div class="hm-cell" style="background:#7A5AA6a3">1</div><div class="hm-cell" style="background:#7A5AA6a3">1</div><div class="hm-cell" style="background:#7A5AA6ff">2</div><div class="hm-cell" style="background:#7A5AA6ff">2</div><div class="hm-cell" style="background:#7A5AA6ff">2</div><div class="hm-cell hm-z">·</div></div>
+<div class="note">No family is loaded into one stretch of the calendar. Each gets roughly one game per active month, so the tickets arrive steadily all season rather than in bunches.</div>
+
+<div class="section-label">The full assignment</div>
+<table><thead><tr><th>Date</th><th>Day</th><th>Time</th><th>Opponent</th><th>Type</th><th>Family</th></tr></thead>
+<tbody><tr>
+          <td class="mono">Sep 29, 2026</td>
+          <td>Tue</td><td class="mono">5:00 PM</td>
+          <td>Florida</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#C8102E">Eason</span></td>
+        </tr><tr>
+          <td class="mono">Oct 02, 2026</td>
+          <td>Fri</td><td class="mono">7:00 PM</td>
+          <td>Washington</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#E0912F">Shroyer</span></td>
+        </tr><tr>
+          <td class="mono">Oct 08, 2026</td>
+          <td>Thu</td><td class="mono">7:00 PM</td>
+          <td>Vancouver</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#2E9E7B">Poplak</span></td>
+        </tr><tr>
+          <td class="mono">Oct 13, 2026</td>
+          <td>Tue</td><td class="mono">6:45 PM</td>
+          <td>Washington</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#E0912F">Shroyer</span></td>
+        </tr><tr>
+          <td class="mono">Oct 27, 2026</td>
+          <td>Tue</td><td class="mono">8:00 PM</td>
+          <td>Boston</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#C8102E">Eason</span></td>
+        </tr><tr>
+          <td class="mono">Oct 29, 2026</td>
+          <td>Thu</td><td class="mono">7:00 PM</td>
+          <td>Columbus</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#1F6FB2">Swanson</span></td>
+        </tr><tr>
+          <td class="mono">Nov 01, 2026</td>
+          <td>Sun</td><td class="mono">1:00 PM</td>
+          <td>Winnipeg</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#2E9E7B">Poplak</span></td>
+        </tr><tr>
+          <td class="mono">Nov 07, 2026</td>
+          <td>Sat</td><td class="mono">8:00 PM</td>
+          <td>Chicago</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#E0912F">Shroyer</span></td>
+        </tr><tr>
+          <td class="mono">Nov 19, 2026</td>
+          <td>Thu</td><td class="mono">7:00 PM</td>
+          <td>Montreal</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#2E9E7B">Poplak</span></td>
+        </tr><tr>
+          <td class="mono">Nov 21, 2026</td>
+          <td>Sat</td><td class="mono">1:00 PM</td>
+          <td>Edmonton</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#C8102E">Eason</span></td>
+        </tr><tr>
+          <td class="mono">Nov 28, 2026</td>
+          <td>Sat</td><td class="mono">7:00 PM</td>
+          <td>Ottawa</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#7A5AA6">Rabinowitz</span></td>
+        </tr><tr>
+          <td class="mono">Dec 03, 2026</td>
+          <td>Thu</td><td class="mono">7:00 PM</td>
+          <td>Columbus</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#1F6FB2">Swanson</span></td>
+        </tr><tr>
+          <td class="mono">Dec 05, 2026</td>
+          <td>Sat</td><td class="mono">7:00 PM</td>
+          <td>Toronto</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#E0912F">Shroyer</span></td>
+        </tr><tr>
+          <td class="mono">Dec 08, 2026</td>
+          <td>Tue</td><td class="mono">7:00 PM</td>
+          <td>NY Rangers</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#C8102E">Eason</span></td>
+        </tr><tr>
+          <td class="mono">Dec 11, 2026</td>
+          <td>Fri</td><td class="mono">7:00 PM</td>
+          <td>NY Islanders</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#7A5AA6">Rabinowitz</span></td>
+        </tr><tr>
+          <td class="mono">Dec 13, 2026</td>
+          <td>Sun</td><td class="mono">1:00 PM</td>
+          <td>Boston</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#2E9E7B">Poplak</span></td>
+        </tr><tr>
+          <td class="mono">Dec 26, 2026</td>
+          <td>Sat</td><td class="mono">7:00 PM</td>
+          <td>Pittsburgh</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#1F6FB2">Swanson</span></td>
+        </tr><tr>
+          <td class="mono">Dec 28, 2026</td>
+          <td>Mon</td><td class="mono">7:00 PM</td>
+          <td>Tampa Bay</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#E0912F">Shroyer</span></td>
+        </tr><tr>
+          <td class="mono">Jan 02, 2027</td>
+          <td>Sat</td><td class="mono">7:00 PM</td>
+          <td>Nashville</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#C8102E">Eason</span></td>
+        </tr><tr>
+          <td class="mono">Jan 05, 2027</td>
+          <td>Tue</td><td class="mono">7:00 PM</td>
+          <td>St. Louis</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#7A5AA6">Rabinowitz</span></td>
+        </tr><tr>
+          <td class="mono">Jan 07, 2027</td>
+          <td>Thu</td><td class="mono">7:00 PM</td>
+          <td>Pittsburgh</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#1F6FB2">Swanson</span></td>
+        </tr><tr>
+          <td class="mono">Jan 15, 2027</td>
+          <td>Fri</td><td class="mono">7:00 PM</td>
+          <td>Philadelphia</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#2E9E7B">Poplak</span></td>
+        </tr><tr>
+          <td class="mono">Jan 17, 2027</td>
+          <td>Sun</td><td class="mono">6:00 PM</td>
+          <td>Vegas</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#E0912F">Shroyer</span></td>
+        </tr><tr>
+          <td class="mono">Jan 23, 2027</td>
+          <td>Sat</td><td class="mono">7:00 PM</td>
+          <td>Anaheim</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#7A5AA6">Rabinowitz</span></td>
+        </tr><tr>
+          <td class="mono">Jan 28, 2027</td>
+          <td>Thu</td><td class="mono">7:00 PM</td>
+          <td>NY Islanders</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#C8102E">Eason</span></td>
+        </tr><tr>
+          <td class="mono">Jan 30, 2027</td>
+          <td>Sat</td><td class="mono">7:00 PM</td>
+          <td>Los Angeles</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#1F6FB2">Swanson</span></td>
+        </tr><tr>
+          <td class="mono">Feb 09, 2027</td>
+          <td>Tue</td><td class="mono">7:00 PM</td>
+          <td>Colorado</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#E0912F">Shroyer</span></td>
+        </tr><tr>
+          <td class="mono">Feb 11, 2027</td>
+          <td>Thu</td><td class="mono">7:30 PM</td>
+          <td>Minnesota</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#7A5AA6">Rabinowitz</span></td>
+        </tr><tr>
+          <td class="mono">Feb 13, 2027</td>
+          <td>Sat</td><td class="mono">7:00 PM</td>
+          <td>Buffalo</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#2E9E7B">Poplak</span></td>
+        </tr><tr>
+          <td class="mono">Feb 19, 2027</td>
+          <td>Fri</td><td class="mono">7:00 PM</td>
+          <td>Detroit</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#C8102E">Eason</span></td>
+        </tr><tr>
+          <td class="mono">Feb 21, 2027</td>
+          <td>Sun</td><td class="mono">1:00 PM</td>
+          <td>NY Rangers</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#1F6FB2">Swanson</span></td>
+        </tr><tr>
+          <td class="mono">Feb 25, 2027</td>
+          <td>Thu</td><td class="mono">7:00 PM</td>
+          <td>San Jose</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#7A5AA6">Rabinowitz</span></td>
+        </tr><tr>
+          <td class="mono">Feb 27, 2027</td>
+          <td>Sat</td><td class="mono">7:00 PM</td>
+          <td>Tampa Bay</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#E0912F">Shroyer</span></td>
+        </tr><tr>
+          <td class="mono">Mar 05, 2027</td>
+          <td>Fri</td><td class="mono">7:00 PM</td>
+          <td>Toronto</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#2E9E7B">Poplak</span></td>
+        </tr><tr>
+          <td class="mono">Mar 07, 2027</td>
+          <td>Sun</td><td class="mono">1:00 PM</td>
+          <td>Utah</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#7A5AA6">Rabinowitz</span></td>
+        </tr><tr>
+          <td class="mono">Mar 12, 2027</td>
+          <td>Fri</td><td class="mono">7:00 PM</td>
+          <td>Calgary</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#1F6FB2">Swanson</span></td>
+        </tr><tr>
+          <td class="mono">Mar 13, 2027</td>
+          <td>Sat</td><td class="mono">7:00 PM</td>
+          <td>New Jersey</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#C8102E">Eason</span></td>
+        </tr><tr>
+          <td class="mono">Mar 25, 2027</td>
+          <td>Thu</td><td class="mono">7:00 PM</td>
+          <td>Dallas</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#7A5AA6">Rabinowitz</span></td>
+        </tr><tr>
+          <td class="mono">Apr 03, 2027</td>
+          <td>Sat</td><td class="mono">5:00 PM</td>
+          <td>New Jersey</td><td><span class="we">WKND</span></td>
+          <td><span class="chip" style="background:#1F6FB2">Swanson</span></td>
+        </tr><tr>
+          <td class="mono">Apr 05, 2027</td>
+          <td>Mon</td><td class="mono">2:00 PM</td>
+          <td>Philadelphia</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#2E9E7B">Poplak</span></td>
+        </tr><tr>
+          <td class="mono">Apr 07, 2027</td>
+          <td>Wed</td><td class="mono">7:00 PM</td>
+          <td>Ottawa</td><td><span class="wd">week</span></td>
+          <td><span class="chip" style="background:#C8102E">Eason</span></td>
+        </tr></tbody></table>
+
+<div class="note"><b>How the split was made fair.</b> Games were dealt out chronologically, always to the family that was next in line by count — weekends balanced first, then weekday games filling in to even the totals. A hard rule prevented any family from drawing two games in the same week (the busiest weeks have only three home games, so this was always possible). A final pass evened out the spacing so each family's nights land steadily across the season. <b>Note:</b> the Nov 14 vs. Seattle game is excluded — it's an official "home" game but is played in Helsinki, Finland, so it isn't part of the PNC Arena season-ticket package.</div>
+
+<div class="foot">Generated from the official NHL 2026–27 Carolina Hurricanes schedule · 41 regular-season home games</div>
+</div></body></html>
