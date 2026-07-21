@@ -5,6 +5,10 @@ theme = "study"
 googleAnalytics = "G-2N3C69L9GL"
 enableRobotsTxt = true
 
+[markup.highlight]
+  style = "monokai"
+  noClasses = true
+
 [params]
   brand = "Eason Development"
   description = "Notes on technology, leadership, and the human side of both"
