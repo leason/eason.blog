@@ -7,13 +7,13 @@ displayInList: true
 featuredImage: "/posts/2026/08/realized-value-of-ai-improvement/wheres-the-ai-beef.png" 
 featuredImageDescription: ""
 categories: ["ai"]
-draft: true
+draft: false
 ---
 Anyone my age can remember the sweet old ladies, adjusting their glasses, squinting, and asking: "Where's the beef?" That marketing campaign led to Wendy's [increasing their revenue by 31% in 1984](https://en.wikipedia.org/wiki/Where%27s_the_beef%3F). The catchphrase made its way onto t-shirts and even political campaign slogans.
 
 In the fast moving age we live in, I am hearing people start to ask that question about the economic benefits of AI. After all, if it's helping people write software code and do their work faster, doesn't it make sense that it would lead to better sales or margins for the firms adopting it? It's been over four years since GitHub Copilot, the first AI-driven software writing assistance tool, became generally available and promised to transform software productivity. So, where's the beef?
 
-As a researcher, I've started to fall in love with this question. [I'm not the only one](https://news.stanford.edu/stories/2025/12/ai-facts-siepr-policy-forum-fei-fei-ling-mark-kelly), [not by a long shot](https://mitsloan.mit.edu/ideas-made-to-matter/a-new-look-economics-ai). The goal of this essay is to share some of what I'm learning. I want to help you understand the economic frameworks that scientists are using, some history of other technological revolutions, and give you the high-level view of what the facts tell us about where we are on the curve when it comes to AI.
+As a researcher, I've started to fall in love with this question. [I'm not the only one](https://news.stanford.edu/stories/2025/12/ai-facts-siepr-policy-forum-fei-fei-ling-mark-kelly), [not by a long shot](https://mitsloan.mit.edu/ideas-made-to-matter/a-new-look-economics-ai).[^5] The goal of this essay is to share some of what I'm learning. I want to help you understand the economic frameworks that scientists are using, some history of other technological revolutions, and give you the high-level view of what the facts tell us about where we are on the curve when it comes to AI.
 
 ### TL;DR
 There is no beef yet, at least not in the financial details of the 1k publicly traded companies I looked at. However, by monitoring financial disclosures, we should be able to detect when AI adoption starts to impact them and predict when we'll start to see the benefits show up more obviously. We'll do that by looking for dispersion that will show us when early adopters start making bigger bets. Read on for the details.
@@ -63,7 +63,7 @@ The theories suggest that after a period of investment, early adopters will star
 
 ![Dispersion of Revenue per R&D dollar by segment](/posts/2026/08/realized-value-of-ai-improvement/a_dispersion_rev_per_rd.png)
 
-We don't even see dispersion starting to happen in Product and Enabled firms on the margin side, and we'd expect them to show it first:
+We don't see dispersion starting to happen in Product and Enabled firms on the margin side, and we'd expect them to show it first:
 
 ![Dispersion of operating margin by segment](/posts/2026/08/realized-value-of-ai-improvement/a_dispersion_op_margin.png)
 
@@ -78,9 +78,9 @@ Another predictor is R&D intensity (the amount the company spends on R&D relativ
 ![R&D Intensity distribution by year and segment](/posts/2026/08/realized-value-of-ai-improvement/a_boxplot_rd_intensity.png)
 
 ## Conclusion
-I'm shielding you from the boring math details of this. I did a good deal of statistical testing to determine whether there was evidence of change within firms or across firms in those segments. For now, the story is a big nothingburger.
+I'm shielding you from a lot of boring math, but I want to call out how how I'm tracking this going forward. Before trusting any "nothing's happening" conclusion, I checked whether this data could even *see* an AI-sized effect if one were there. Using the real companies as a baseline, I ran a power analysis: I injected pretend effects of known sizes into the data and measured how big one would have to be before a statistical model could reliably catch it. The floor came out around 2-3 percentage points of margin. Credible forecasts of AI's near-term productivity gain are far below that - fractions of a point a year. So the takeaway is that any effect this early is smaller than company financials can resolve - *and*, separately, the patterns that would surface first if it weren't (early adopters pulling ahead, R&D spending climbing) aren't showing up either. For now the story is a nothingburger.
 
-However, that does not in any way mean this won't change, and likely soon. AI providers have been subsidizing the cost of their services but there is plenty of indication that those subsidies are shrinking or going away. I'm going to be watching Q2 and Q3 disclosures very closely to see if those changes show up in the financial statements.
+However, that does not in any way mean this won't change, and likely soon. AI providers have been subsidizing the cost of their services but there is plenty of indication that those subsidies are shrinking or going away. I'm going to be watching Q2 and Q3 disclosures very closely to see if those changes show up in the financial statements. This analysis helped show how big the swings are going to need to be to be detectable, so I've got a foundational approach I can scale up as new data is released.
 
 What will be really interesting is whether the conservative predictions on productivity play out or if firms are somehow able to do a lot more. If companies end up laying off thousands of people to offset increased operating costs due to AI, and only end up matching their prior performance, the economy as a whole loses big time. You need to generate new dollars to create new jobs for the people offset by AI. If the economy ends up flat, there's no new dollars to invest, and those people won't have jobs to retrain themselves to do.
 
@@ -95,3 +95,5 @@ What will be really interesting is whether the conservative predictions on produ
 [^3]: E. Brynjolfsson et al., “The productivity J-curve: How intangibles complement general purpose technologies,” American Economic Journal: Macroeconomics, vol. 13, no. 1, pp. 333-372, 2021
 
 [^4]: D. Acemoglu, “The simple macroeconomics of AI,” Economic Policy, 2025
+
+[^5]: My bibliography tool found 146,000 matches for "Macroeconomics of AI" on google scholar...
