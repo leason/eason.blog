@@ -9,7 +9,7 @@ featuredImageDescription: ""
 categories: ["ai"]
 draft: true
 ---
-Anyone my age can remember the sweet old ladies, one adjusting her glasses, all of them squinting, and one asking: "Where's the beef?" That marketing campaign led to Wendy's [increasing their revenue by 31% in 1984](https://en.wikipedia.org/wiki/Where%27s_the_beef%3F). The catchphrase made its way onto t-shirts and even political campaign slogans.
+Anyone my age can remember the sweet old ladies, adjusting their glasses, squinting, and asking: "Where's the beef?" That marketing campaign led to Wendy's [increasing their revenue by 31% in 1984](https://en.wikipedia.org/wiki/Where%27s_the_beef%3F). The catchphrase made its way onto t-shirts and even political campaign slogans.
 
 In the fast moving age we live in, I am hearing people start to ask that question about the economic benefits of AI. After all, if it's helping people write software code and do their work faster, doesn't it make sense that it would lead to better sales or margins for the firms adopting it? It's been over four years since GitHub Copilot, the first AI-driven software writing assistance tool, became generally available and promised to transform software productivity. So, where's the beef?
 
@@ -29,7 +29,7 @@ To be sure, there are a few players showing massive revenue increase... but it's
 
 ![Revenue by value-chain layer](/posts/2026/08/realized-value-of-ai-improvement/b_revenue_index.png)
 
-There are wild claims being made about what AI is going to do to the economy. Mass layoffs, AI systems replacing human thought, etc. However, the scientists who study how the economy works have models that help us make more grounded predictions. At least one of those is only predicting a modest 0.53% increase in total GDP thanks to AI.[^4] So while we see layoffs, if firms are justifying them as an effect of AI adoption I think these findings increase the risk that the true story is more complex than that. It just seems far too early in the adoption curve to justify the level of layoffs some of these firms are doing.
+There are wild claims being made about what AI is going to do to the economy. Mass layoffs, AI systems replacing human thought, etc. However, the scientists who study how the economy works have models that help us make more grounded predictions. At least one of those is only predicting a modest 0.53% increase over the next ten years in total GDP thanks to AI.[^4] So while we already see layoffs, if firms are justifying them as an effect of AI adoption I think these findings increase the risk that the true story is more complex than that. It just seems far too early in the adoption curve to justify the level of layoffs some of these firms are doing.
 
 ### Where my study data comes from
 The SEC helpfully provides the information publicly traded companies have to disclose every quarter. It's free to access. GitHub Copilot went GA in late June of 2022, so I used that as an anchor point. To avoid bias, I figured out which companies were in the Russell 1000 index as of that date, then pulled those company's finanical records from 2019 to today.[^1] All financial analysis I report will be based on this information.
@@ -48,7 +48,7 @@ Note that this essay is **not** talking about AI oriented products a company may
 ## Technology transformations normally look like J-curves
 When I started to see the results of my analysis I got confused. I expected to see a drop in margin as companies start to pay for AI services, invest in training, etc. Those would then lead to increases in revenue as these tools increase productivity.
 
-This is what the experts say happens every time there has been a major transformative invention. Unfortunately, they call these things GPTs: General Purpose Technology. That label means papers about AI economics will continually confuse readers who see GPT and think about ChatGPT. But GPTs include things like steam engines, electrification, dynamos, and computers themselves. And it takes a long time for these to really have an impact. It took 30 years for electrification to show an improvement in productivity.[^2]
+This is what the experts say happens every time there has been a major transformative invention. Unfortunately, they call these things GPTs: General Purpose Technology. That label means papers about AI economics will continually confuse readers who see GPT and think about ChatGPT. But GPTs include things like steam engines, electrification, dynamos, and computers themselves. And it takes a *long* time for these to really have an impact. It took 30 years for electrification to show an improvement in productivity.[^2]
 
 Brynjolfsson's paper builds on other economic theories to suggest that companies adopting new technologies will appear to lose productivity at first.[^3] This is because they are investing in "intangibles" such as new hardware, training, processes, and organizational designs. They are intangible because they are inconsistently quantified in SEC filings. All we would see is a slight drop in margin.
 
